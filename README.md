@@ -1,4 +1,4 @@
-"""
+
 
 # Adaptive Chain-of-Table Reasoning with Open-Source LLMs
 
@@ -62,4 +62,3 @@ python main.py --dataset tatqa --llm mistral-7b
 ```bash
 python scripts/lora_finetune.py
 ```
-"""
