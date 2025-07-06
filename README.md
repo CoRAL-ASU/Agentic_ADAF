@@ -1,5 +1,3 @@
-
-
 # Adaptive Chain-of-Table Reasoning with Open-Source LLMs
 
 ## Directory structure:
@@ -24,19 +22,7 @@ adaptive-table-qa/
 │   └── generate_synthetic_data.py
 ├── utils/
 │   ├── table_ops.py
-│   ├── metrics.py
-│   └── data_loader.py
-├── configs/
-│   └── model_config.yaml
-├── models/
-│   └── align_llm.py
-├── main.py
-├── README.md
-└── requirements.txt
-```
-
-
-
+@@ -40,26 +39,26 @@ adaptive-table-qa/
 # Adaptive Chain-of-Table QA
 
 This repository implements a multi-agent reasoning framework to perform multi-hop question answering over tables (and optionally text) using open-source LLMs like LLaMA and Mistral.
