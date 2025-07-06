@@ -23,17 +23,20 @@ adaptive-table-qa/
 ├── utils/
 │   ├── table_ops.py
 @@ -40,26 +39,26 @@ adaptive-table-qa/
+```
+
 # Adaptive Chain-of-Table QA
-
+```
 This repository implements a multi-agent reasoning framework to perform multi-hop question answering over tables (and optionally text) using open-source LLMs like LLaMA and Mistral.
-
+```
 ## Features
+```
 - Modular agents: TableAgent, ContextAgent, CalculationAgent, Coordinator
 - Chain-of-Table reasoning steps
 - Few-shot prompt templates
 - Finetuning with LoRA
 - Evaluation on FinQA, TabFact, TAT-QA, WikiTQ, FeTaQA
-
+```
 ## Setup
 ```bash
 pip install -r requirements.txt
