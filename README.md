@@ -16,9 +16,9 @@ adaptive-table-qa/
 ├── prompts/
 │   ├── chain_templates.md
 │   └── demo_examples.json
+├── lora_finetune.py
+├── evaluate.py
 ├── scripts/
-│   ├── lora_finetune.py
-│   ├── evaluate.py
 │   └── generate_synthetic_data.py
 ├── utils/
 │   ├── table_ops.py
