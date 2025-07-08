@@ -4,5 +4,5 @@ peft
 torch
 pandas
 tqdm
-yaml
-mistral-inference @ git+https://github.com/mistralai/mistral-inference.git
+pyyaml
+mistral-inference
