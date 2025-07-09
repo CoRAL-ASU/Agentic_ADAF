@@ -48,6 +48,17 @@ Clone the official inference repository and install its Python package:
 scripts/setup_mistral_inference.sh
 ```
 
+### Use OpenAI API
+Install the `openai` package (already listed in `requirements.txt`) and set
+your API key:
+```bash
+export OPENAI_API_KEY=<your-key>
+```
+Run the pipeline with any supported OpenAI model, e.g. `gpt-3.5-turbo`:
+```bash
+python main.py --dataset tatqa --llm gpt-3.5-turbo
+```
+
 
 ## Run Inference
 ```bash
