@@ -1,0 +1,502 @@
+[
+  {
+    "id": "finqa-dev-000",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "100",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        90,
+        20
+      ],
+      [
+        "2018",
+        100,
+        25
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 100 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-001",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "105",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        95,
+        21
+      ],
+      [
+        "2019",
+        105,
+        26
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 105 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-002",
+    "question": "What was the revenue reported in 2020?",
+    "answer": "110",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2019",
+        100,
+        22
+      ],
+      [
+        "2020",
+        110,
+        27
+      ]
+    ],
+    "paragraphs": [
+      "In 2020 the company reported revenue of 110 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-003",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "115",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        105,
+        23
+      ],
+      [
+        "2018",
+        115,
+        28
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 115 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-004",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "120",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        110,
+        24
+      ],
+      [
+        "2019",
+        120,
+        29
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 120 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-005",
+    "question": "What was the revenue reported in 2020?",
+    "answer": "125",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2019",
+        115,
+        25
+      ],
+      [
+        "2020",
+        125,
+        30
+      ]
+    ],
+    "paragraphs": [
+      "In 2020 the company reported revenue of 125 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-006",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "130",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        120,
+        26
+      ],
+      [
+        "2018",
+        130,
+        31
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 130 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-007",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "135",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        125,
+        27
+      ],
+      [
+        "2019",
+        135,
+        32
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 135 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-008",
+    "question": "What was the revenue reported in 2020?",
+    "answer": "140",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2019",
+        130,
+        28
+      ],
+      [
+        "2020",
+        140,
+        33
+      ]
+    ],
+    "paragraphs": [
+      "In 2020 the company reported revenue of 140 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-009",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "145",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        135,
+        29
+      ],
+      [
+        "2018",
+        145,
+        34
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 145 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-010",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "150",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        140,
+        30
+      ],
+      [
+        "2019",
+        150,
+        35
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 150 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-011",
+    "question": "What was the revenue reported in 2020?",
+    "answer": "155",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2019",
+        145,
+        31
+      ],
+      [
+        "2020",
+        155,
+        36
+      ]
+    ],
+    "paragraphs": [
+      "In 2020 the company reported revenue of 155 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-012",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "160",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        150,
+        32
+      ],
+      [
+        "2018",
+        160,
+        37
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 160 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-013",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "165",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        155,
+        33
+      ],
+      [
+        "2019",
+        165,
+        38
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 165 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-014",
+    "question": "What was the revenue reported in 2020?",
+    "answer": "170",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2019",
+        160,
+        34
+      ],
+      [
+        "2020",
+        170,
+        39
+      ]
+    ],
+    "paragraphs": [
+      "In 2020 the company reported revenue of 170 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-015",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "175",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        165,
+        35
+      ],
+      [
+        "2018",
+        175,
+        40
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 175 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-016",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "180",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        170,
+        36
+      ],
+      [
+        "2019",
+        180,
+        41
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 180 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-017",
+    "question": "What was the revenue reported in 2020?",
+    "answer": "185",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2019",
+        175,
+        37
+      ],
+      [
+        "2020",
+        185,
+        42
+      ]
+    ],
+    "paragraphs": [
+      "In 2020 the company reported revenue of 185 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-018",
+    "question": "What was the revenue reported in 2018?",
+    "answer": "190",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2017",
+        180,
+        38
+      ],
+      [
+        "2018",
+        190,
+        43
+      ]
+    ],
+    "paragraphs": [
+      "In 2018 the company reported revenue of 190 million dollars."
+    ]
+  },
+  {
+    "id": "finqa-dev-019",
+    "question": "What was the revenue reported in 2019?",
+    "answer": "195",
+    "table": [
+      [
+        "Year",
+        "Revenue",
+        "Profit"
+      ],
+      [
+        "2018",
+        185,
+        39
+      ],
+      [
+        "2019",
+        195,
+        44
+      ]
+    ],
+    "paragraphs": [
+      "In 2019 the company reported revenue of 195 million dollars."
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "dataset": "multi_hop",
+  "split": "dev",
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "accuracy": 1.0,
+  "num_examples": 1,
+  "latency_sec": 0.0,
+  "calls": null,
+  "tokens": null,
+  "api_cost": null,
+  "per_example": [
+    {
+      "id": "multi-hop-dev-0060",
+      "question": "Start from 3. Apply the following 7 operations in order: multiply 3, multiply 4, add 10, add 6, multiply 3, multiply 3, add 9. What is the final value?",
+      "prediction": "477",
+      "reference": 477,
+      "rationale": "Question: Start from 3. Apply the following 7 operations in order: multiply 3, multiply 4, add 10, add 6, multiply 3, multiply 3, add 9. What is the final value? \nCalculation: 477",
+      "log": [
+        {
+          "agent": "controller",
+          "type": "question",
+          "content": "Start from 3. Apply the following 7 operations in order: multiply 3, multiply 4, add 10, add 6, multiply 3, multiply 3, add 9. What is the final value?",
+          "metadata": {
+            "sample_id": "multi-hop-dev-0060"
+          },
+          "needs": [
+            "context",
+            "table",
+            "calculation"
+          ],
+          "resolves": []
+        },
+        {
+          "agent": "context_agent",
+          "type": "context",
+          "content": "",
+          "metadata": {
+            "source": "paragraphs"
+          },
+          "needs": [],
+          "resolves": [
+            "context"
+          ]
+        },
+        {
+          "agent": "table_agent",
+          "type": "table",
+          "content": [],
+          "metadata": {
+            "operation": "noop"
+          },
+          "needs": [],
+          "resolves": [
+            "table"
+          ]
+        },
+        {
+          "agent": "calculation_agent",
+          "type": "calculation",
+          "content": 477,
+          "metadata": {
+            "expression": "(((((((3*3)*4)+10)+6)*3)*3)+9)"
+          },
+          "needs": [],
+          "resolves": [
+            "calculation"
+          ]
+        },
+        {
+          "agent": "controller",
+          "type": "retrieval_round",
+          "content": {
+            "round": 0,
+            "parallel": false,
+            "retrieval_sec": 0.0
+          },
+          "metadata": {},
+          "needs": [],
+          "resolves": []
+        },
+        {
+          "agent": "controller",
+          "type": "scheduler_decision",
+          "content": {
+            "round": 0,
+            "score": 1.0,
+            "threshold": 0.4,
+            "features": {
+              "image_present": false,
+              "summarizer_conf": 0.5,
+              "delta_entries": 4,
+              "delta_pending": -3
+            }
+          },
+          "metadata": {},
+          "needs": [],
+          "resolves": []
+        },
+        {
+          "agent": "controller",
+          "type": "request_summary",
+          "content": "Synthesize final answer",
+          "metadata": {},
+          "needs": [
+            "summary"
+          ],
+          "resolves": []
+        },
+        {
+          "agent": "summarizer_agent",
+          "type": "summary",
+          "content": {
+            "answer": "477",
+            "rationale": "Question: Start from 3. Apply the following 7 operations in order: multiply 3, multiply 4, add 10, add 6, multiply 3, multiply 3, add 9. What is the final value? \nCalculation: 477",
+            "confidence": 1.0,
+            "prompt_tokens": 0,
+            "completion_tokens": 0
+          },
+          "metadata": {
+            "confidence": 1.0,
+            "prompt_tokens": 0,
+            "completion_tokens": 0
+          },
+          "needs": [
+            "verification"
+          ],
+          "resolves": [
+            "summary"
+          ]
+        },
+        {
+          "agent": "verification_agent",
+          "type": "verification",
+          "content": {
+            "verified": true,
+            "reference_available": true
+          },
+          "metadata": {},
+          "needs": [],
+          "resolves": [
+            "verification"
+          ]
+        }
+      ],
+      "correct": true,
+      "latency_sec": 0.00028858000587206334
+    }
+  ]
+}

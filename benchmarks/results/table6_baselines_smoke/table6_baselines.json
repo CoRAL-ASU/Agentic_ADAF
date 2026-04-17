@@ -1,0 +1,81 @@
+{
+  "config": {
+    "llm": "/mnt/shared/shared_hf_home/hub/models--Qwen--Qwen2.5-0.5B-Instruct",
+    "systems": [
+      "cot"
+    ],
+    "split": "dev",
+    "limit": 1,
+    "decoding": {},
+    "cot_temperature": 0.2,
+    "cot_max_new_tokens": 256,
+    "max_rounds": 10,
+    "summarizer_llm": null,
+    "summarizer_temperature": 0.2,
+    "summarizer_max_tokens": 256
+  },
+  "rows": [
+    {
+      "task": "CRT-QA",
+      "notes": "Upto 10 rounds",
+      "scores": {
+        "cot": 0.0
+      },
+      "num_examples": {
+        "cot": 1
+      }
+    },
+    {
+      "task": "Multi-Hop 5-6 steps",
+      "notes": "All chains correct",
+      "scores": {
+        "cot": 1.0
+      },
+      "num_examples": {
+        "cot": 1
+      }
+    },
+    {
+      "task": "Multi-Hop 7-8 steps",
+      "notes": "Occasional lookup omission",
+      "scores": {
+        "cot": 1.0
+      },
+      "num_examples": {
+        "cot": 1
+      }
+    },
+    {
+      "task": "All",
+      "notes": "Strong long-horizon EM",
+      "scores": {
+        "cot": 0.6666666666666666
+      },
+      "num_examples": {
+        "cot": 3
+      }
+    }
+  ],
+  "by_system_and_task": {
+    "cot": {
+      "CRT-QA": {
+        "accuracy": 0.0,
+        "num_examples": 1,
+        "raw_metrics_file": "benchmarks/results/table6_baselines_smoke/raw/cot__crt-qa.json",
+        "notes": "Upto 10 rounds"
+      },
+      "Multi-Hop 5-6 steps": {
+        "accuracy": 1.0,
+        "num_examples": 1,
+        "raw_metrics_file": "benchmarks/results/table6_baselines_smoke/raw/cot__multi-hop_5-6_steps.json",
+        "notes": "All chains correct"
+      },
+      "Multi-Hop 7-8 steps": {
+        "accuracy": 1.0,
+        "num_examples": 1,
+        "raw_metrics_file": "benchmarks/results/table6_baselines_smoke/raw/cot__multi-hop_7-8_steps.json",
+        "notes": "Occasional lookup omission"
+      }
+    }
+  }
+}

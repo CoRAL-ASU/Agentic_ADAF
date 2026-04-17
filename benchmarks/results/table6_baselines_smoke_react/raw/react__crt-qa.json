@@ -1,0 +1,27 @@
+{
+  "dataset": "crtqa",
+  "split": "dev",
+  "strategy": "react",
+  "model": "/mnt/shared/shared_hf_home/hub/models--Qwen--Qwen2.5-0.5B-Instruct",
+  "accuracy": 0.0,
+  "num_examples": 1,
+  "latency_sec": 12.988,
+  "calls": 1,
+  "tokens": 638,
+  "api_cost": "$0.08",
+  "decoding": {},
+  "min_chain_len": null,
+  "max_chain_len": null,
+  "per_example": [
+    {
+      "id": "2-10311801-2.html.csv::0",
+      "question": "Can we identify any outlier events based on the number of acts or number of stages compared to the other events in the table? Answer with only 'Yes' or 'No' that is most accurate and nothing else.",
+      "prediction": "2. I then consider the historical context of early",
+      "reference": "Yes",
+      "correct": false,
+      "latency_sec": 12.987670606002212,
+      "prompt_tokens": 382,
+      "completion_tokens": 256
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fetaqa-000",
+    "question": "How long did Project 1 last?",
+    "answer": "Project 1 lasted 6 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 1",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "Project 1 lasted 6 months."
+    ]
+  },
+  {
+    "id": "fetaqa-001",
+    "question": "How long did Project 2 last?",
+    "answer": "Project 2 lasted 7 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 2",
+        7
+      ]
+    ],
+    "paragraphs": [
+      "Project 2 lasted 7 months."
+    ]
+  },
+  {
+    "id": "fetaqa-002",
+    "question": "How long did Project 3 last?",
+    "answer": "Project 3 lasted 8 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 3",
+        8
+      ]
+    ],
+    "paragraphs": [
+      "Project 3 lasted 8 months."
+    ]
+  },
+  {
+    "id": "fetaqa-003",
+    "question": "How long did Project 4 last?",
+    "answer": "Project 4 lasted 9 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 4",
+        9
+      ]
+    ],
+    "paragraphs": [
+      "Project 4 lasted 9 months."
+    ]
+  },
+  {
+    "id": "fetaqa-004",
+    "question": "How long did Project 5 last?",
+    "answer": "Project 5 lasted 6 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 5",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "Project 5 lasted 6 months."
+    ]
+  },
+  {
+    "id": "fetaqa-005",
+    "question": "How long did Project 6 last?",
+    "answer": "Project 6 lasted 7 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 6",
+        7
+      ]
+    ],
+    "paragraphs": [
+      "Project 6 lasted 7 months."
+    ]
+  },
+  {
+    "id": "fetaqa-006",
+    "question": "How long did Project 7 last?",
+    "answer": "Project 7 lasted 8 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 7",
+        8
+      ]
+    ],
+    "paragraphs": [
+      "Project 7 lasted 8 months."
+    ]
+  },
+  {
+    "id": "fetaqa-007",
+    "question": "How long did Project 8 last?",
+    "answer": "Project 8 lasted 9 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 8",
+        9
+      ]
+    ],
+    "paragraphs": [
+      "Project 8 lasted 9 months."
+    ]
+  },
+  {
+    "id": "fetaqa-008",
+    "question": "How long did Project 9 last?",
+    "answer": "Project 9 lasted 6 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 9",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "Project 9 lasted 6 months."
+    ]
+  },
+  {
+    "id": "fetaqa-009",
+    "question": "How long did Project 10 last?",
+    "answer": "Project 10 lasted 7 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 10",
+        7
+      ]
+    ],
+    "paragraphs": [
+      "Project 10 lasted 7 months."
+    ]
+  },
+  {
+    "id": "fetaqa-010",
+    "question": "How long did Project 11 last?",
+    "answer": "Project 11 lasted 8 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 11",
+        8
+      ]
+    ],
+    "paragraphs": [
+      "Project 11 lasted 8 months."
+    ]
+  },
+  {
+    "id": "fetaqa-011",
+    "question": "How long did Project 12 last?",
+    "answer": "Project 12 lasted 9 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 12",
+        9
+      ]
+    ],
+    "paragraphs": [
+      "Project 12 lasted 9 months."
+    ]
+  },
+  {
+    "id": "fetaqa-012",
+    "question": "How long did Project 13 last?",
+    "answer": "Project 13 lasted 6 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 13",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "Project 13 lasted 6 months."
+    ]
+  },
+  {
+    "id": "fetaqa-013",
+    "question": "How long did Project 14 last?",
+    "answer": "Project 14 lasted 7 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 14",
+        7
+      ]
+    ],
+    "paragraphs": [
+      "Project 14 lasted 7 months."
+    ]
+  },
+  {
+    "id": "fetaqa-014",
+    "question": "How long did Project 15 last?",
+    "answer": "Project 15 lasted 8 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 15",
+        8
+      ]
+    ],
+    "paragraphs": [
+      "Project 15 lasted 8 months."
+    ]
+  },
+  {
+    "id": "fetaqa-015",
+    "question": "How long did Project 16 last?",
+    "answer": "Project 16 lasted 9 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 16",
+        9
+      ]
+    ],
+    "paragraphs": [
+      "Project 16 lasted 9 months."
+    ]
+  },
+  {
+    "id": "fetaqa-016",
+    "question": "How long did Project 17 last?",
+    "answer": "Project 17 lasted 6 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 17",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "Project 17 lasted 6 months."
+    ]
+  },
+  {
+    "id": "fetaqa-017",
+    "question": "How long did Project 18 last?",
+    "answer": "Project 18 lasted 7 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 18",
+        7
+      ]
+    ],
+    "paragraphs": [
+      "Project 18 lasted 7 months."
+    ]
+  },
+  {
+    "id": "fetaqa-018",
+    "question": "How long did Project 19 last?",
+    "answer": "Project 19 lasted 8 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 19",
+        8
+      ]
+    ],
+    "paragraphs": [
+      "Project 19 lasted 8 months."
+    ]
+  },
+  {
+    "id": "fetaqa-019",
+    "question": "How long did Project 20 last?",
+    "answer": "Project 20 lasted 9 months.",
+    "table": [
+      [
+        "Project",
+        "Duration (months)"
+      ],
+      [
+        "Project 20",
+        9
+      ]
+    ],
+    "paragraphs": [
+      "Project 20 lasted 9 months."
+    ]
+  }
+]

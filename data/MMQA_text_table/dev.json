@@ -1,0 +1,362 @@
+[
+  {
+    "id": "mmqa-text-000",
+    "question": "What is the capacity of Hall A?",
+    "answer": "500",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall A",
+        500
+      ]
+    ],
+    "paragraphs": [
+      "Hall A can host 500 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-001",
+    "question": "What is the capacity of Hall B?",
+    "answer": "520",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall B",
+        520
+      ]
+    ],
+    "paragraphs": [
+      "Hall B can host 520 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-002",
+    "question": "What is the capacity of Hall C?",
+    "answer": "540",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall C",
+        540
+      ]
+    ],
+    "paragraphs": [
+      "Hall C can host 540 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-003",
+    "question": "What is the capacity of Hall D?",
+    "answer": "560",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall D",
+        560
+      ]
+    ],
+    "paragraphs": [
+      "Hall D can host 560 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-004",
+    "question": "What is the capacity of Hall E?",
+    "answer": "580",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall E",
+        580
+      ]
+    ],
+    "paragraphs": [
+      "Hall E can host 580 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-005",
+    "question": "What is the capacity of Hall A?",
+    "answer": "500",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall A",
+        500
+      ]
+    ],
+    "paragraphs": [
+      "Hall A can host 500 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-006",
+    "question": "What is the capacity of Hall B?",
+    "answer": "520",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall B",
+        520
+      ]
+    ],
+    "paragraphs": [
+      "Hall B can host 520 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-007",
+    "question": "What is the capacity of Hall C?",
+    "answer": "540",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall C",
+        540
+      ]
+    ],
+    "paragraphs": [
+      "Hall C can host 540 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-008",
+    "question": "What is the capacity of Hall D?",
+    "answer": "560",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall D",
+        560
+      ]
+    ],
+    "paragraphs": [
+      "Hall D can host 560 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-009",
+    "question": "What is the capacity of Hall E?",
+    "answer": "580",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall E",
+        580
+      ]
+    ],
+    "paragraphs": [
+      "Hall E can host 580 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-010",
+    "question": "What is the capacity of Hall A?",
+    "answer": "500",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall A",
+        500
+      ]
+    ],
+    "paragraphs": [
+      "Hall A can host 500 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-011",
+    "question": "What is the capacity of Hall B?",
+    "answer": "520",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall B",
+        520
+      ]
+    ],
+    "paragraphs": [
+      "Hall B can host 520 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-012",
+    "question": "What is the capacity of Hall C?",
+    "answer": "540",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall C",
+        540
+      ]
+    ],
+    "paragraphs": [
+      "Hall C can host 540 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-013",
+    "question": "What is the capacity of Hall D?",
+    "answer": "560",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall D",
+        560
+      ]
+    ],
+    "paragraphs": [
+      "Hall D can host 560 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-014",
+    "question": "What is the capacity of Hall E?",
+    "answer": "580",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall E",
+        580
+      ]
+    ],
+    "paragraphs": [
+      "Hall E can host 580 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-015",
+    "question": "What is the capacity of Hall A?",
+    "answer": "500",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall A",
+        500
+      ]
+    ],
+    "paragraphs": [
+      "Hall A can host 500 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-016",
+    "question": "What is the capacity of Hall B?",
+    "answer": "520",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall B",
+        520
+      ]
+    ],
+    "paragraphs": [
+      "Hall B can host 520 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-017",
+    "question": "What is the capacity of Hall C?",
+    "answer": "540",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall C",
+        540
+      ]
+    ],
+    "paragraphs": [
+      "Hall C can host 540 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-018",
+    "question": "What is the capacity of Hall D?",
+    "answer": "560",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall D",
+        560
+      ]
+    ],
+    "paragraphs": [
+      "Hall D can host 560 attendees."
+    ]
+  },
+  {
+    "id": "mmqa-text-019",
+    "question": "What is the capacity of Hall E?",
+    "answer": "580",
+    "table": [
+      [
+        "Hall",
+        "Capacity"
+      ],
+      [
+        "Hall E",
+        580
+      ]
+    ],
+    "paragraphs": [
+      "Hall E can host 580 attendees."
+    ]
+  }
+]

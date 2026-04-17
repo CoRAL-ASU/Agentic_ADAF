@@ -1,0 +1,37 @@
+==== GPU Usage by User ====
+
+GPU 0: [0;31mBUSY[0m (Util: 86%, Mem: 120101/143771 MiB, 83%)
+   Users:
+   - mjojic: VLLM::EngineCore
+
+GPU 1: [0;33mIN USE[0m (Util: 0%, Mem: 2983/143771 MiB, 2%)
+   Users:
+   - jdineen: ray::WorkerDict
+
+GPU 2: [0;31mBUSY[0m (Util: 0%, Mem: 113202/143771 MiB, 78%)
+   Users:
+   - mjojic: python3 search.py --vlm_device 0 --inpaint_device 2 --patch_dir ../naturalbench_
+   - achakr40: .venv/bin/python scripts/run_table6_long_horizon.py --llm meta-llama/Llama-3.3-7
+
+GPU 3: [0;31mBUSY[0m (Util: 100%, Mem: 99828/143771 MiB, 69%)
+   Users:
+   - shijielu: /mnt/shared/shijie/blind-vlm-project/vllm_nighty/bin/python3 -c from multiproces
+   - shijielu: /mnt/shared/shijie/blind-vlm-project/vllm_nighty/bin/python3 -c from multiproces
+
+GPU 4: [0;31mBUSY[0m (Util: 0%, Mem: 125503/143771 MiB, 87%)
+   Users:
+   - nahuja11: VLLM::Worker_TP0
+
+GPU 5: [0;31mBUSY[0m (Util: 0%, Mem: 125503/143771 MiB, 87%)
+   Users:
+   - nahuja11: VLLM::Worker_TP1
+
+GPU 6: [0;33mIN USE[0m (Util: 0%, Mem: 2881/143771 MiB, 2%)
+   Users:
+   - jdineen: ray::WorkerDict.actor_rollout_save_checkpoint
+
+GPU 7: [0;31mBUSY[0m (Util: 100%, Mem: 38258/143771 MiB, 26%)
+   Users:
+   - achakr40: .venv/bin/python scripts/run_table6_long_horizon.py --llm meta-llama/Llama-3.3-7
+   - mvyas7: python colbert_pruner_wikitab_dpr.py
+

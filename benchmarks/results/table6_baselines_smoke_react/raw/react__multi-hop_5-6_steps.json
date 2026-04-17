@@ -1,0 +1,27 @@
+{
+  "dataset": "multi_hop",
+  "split": "dev",
+  "strategy": "react",
+  "model": "/mnt/shared/shared_hf_home/hub/models--Qwen--Qwen2.5-0.5B-Instruct",
+  "accuracy": 0.0,
+  "num_examples": 1,
+  "latency_sec": 9.31,
+  "calls": 1,
+  "tokens": 343,
+  "api_cost": "$0.08",
+  "decoding": {},
+  "min_chain_len": 5,
+  "max_chain_len": 6,
+  "per_example": [
+    {
+      "id": "multi-hop-dev-0000",
+      "question": "Start from 2. Apply the following 5 operations in order: multiply 3, add 4, add 12, add 11, multiply 4. What is the final value?",
+      "prediction": "68",
+      "reference": 132,
+      "correct": false,
+      "latency_sec": 9.310075618996052,
+      "prompt_tokens": 87,
+      "completion_tokens": 256
+    }
+  ]
+}

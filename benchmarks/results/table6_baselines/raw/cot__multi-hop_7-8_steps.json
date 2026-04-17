@@ -1,0 +1,855 @@
+{
+  "dataset": "multi_hop",
+  "split": "dev",
+  "model": "/mnt/shared/shared_hf_home/hub/models--meta-llama--Llama-3.3-70B-Instruct",
+  "accuracy": 0.9666666666666667,
+  "num_examples": 60,
+  "latency_sec": null,
+  "calls": null,
+  "tokens": null,
+  "api_cost": null,
+  "min_chain_len": 7,
+  "max_chain_len": 8,
+  "per_example": [
+    {
+      "id": "multi-hop-dev-0060",
+      "question": "Start from 3. Apply the following 7 operations in order: multiply 3, multiply 4, add 10, add 6, multiply 3, multiply 3, add 9. What is the final value?",
+      "prediction": "477",
+      "reference": 477,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. Multiply 3: \\(3 \\times 3 = 9\\)\n2. Multiply 4: \\(9 \\times 4 = 36\\)\n3. Add 10: \\(36 + 10 = 46\\)\n4. Add 6: \\(46 + 6 = 52\\)\n5. Multiply 3: \\(52 \\times 3 = 156\\)\n6. Multiply 3: \\(156 \\times 3 = 468\\)\n7. Add 9: \\(468 + 9 = 477\\)\n\nTherefore, after applying all the operations in order, the final value is 477.\n\nAnswer: 477\nThe best answer is 477",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 169
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0061",
+      "question": "Start from 2. Apply the following 8 operations in order: subtract 8, add 7, subtract 11, subtract 12, add 7, add 12, multiply 4, subtract 10. What is the final value?",
+      "prediction": "-22",
+      "reference": -22,
+      "llm_response": {
+        "content": "Let's start with the initial value of 2 and apply the operations one by one.\n\n1. Subtract 8: 2 - 8 = -6\n2. Add 7: -6 + 7 = 1\n3. Subtract 11: 1 - 11 = -10\n4. Subtract 12: -10 - 12 = -22\n5. Add 7: -22 + 7 = -15\n6. Add 12: -15 + 12 = -3\n7. Multiply 4: -3 * 4 = -12\n8. Subtract 10: -12 - 10 = -22\n\nAnswer: -22\nThe best answer is -22",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 150
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0062",
+      "question": "Start from 9. Apply the following 8 operations in order: subtract 12, multiply 3, subtract 4, add 5, subtract 4, subtract 10, multiply 4, subtract 6. What is the final value?",
+      "prediction": "-94.",
+      "reference": -94,
+      "llm_response": {
+        "content": "Let's apply the operations step by step:\n1. Start with 9.\n2. Subtract 12: 9 - 12 = -3.\n3. Multiply 3: -3 * 3 = -9.\n4. Subtract 4: -9 - 4 = -13.\n5. Add 5: -13 + 5 = -8.\n6. Subtract 4: -8 - 4 = -12.\n7. Subtract 10: -12 - 10 = -22.\n8. Multiply 4: -22 * 4 = -88.\n9. Subtract 6: -88 - 6 = -94.\nAnswer: -94.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 142
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0063",
+      "question": "Start from 9. Apply the following 7 operations in order: subtract 3, subtract 4, subtract 5, subtract 5, multiply 4, subtract 9, add 9. What is the final value?",
+      "prediction": "-32",
+      "reference": -32,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9.\n\n1. Subtract 3: 9 - 3 = 6\n2. Subtract 4: 6 - 4 = 2\n3. Subtract 5: 2 - 5 = -3\n4. Subtract 5: -3 - 5 = -8\n5. Multiply by 4: -8 * 4 = -32\n6. Subtract 9: -32 - 9 = -41\n7. Add 9: -41 + 9 = -32\n\nAnswer: -32\nThe best answer is -32",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 142
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0064",
+      "question": "Start from 3. Apply the following 7 operations in order: add 12, subtract 8, multiply 2, multiply 3, multiply 4, subtract 8, add 2. What is the final value?",
+      "prediction": "162",
+      "reference": 162,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. **Add 12**: Starting with 3, we add 12 to get 15.\n2. **Subtract 8**: From 15, we subtract 8 to get 7.\n3. **Multiply by 2**: We then multiply 7 by 2 to get 14.\n4. **Multiply by 3**: Next, we multiply 14 by 3 to get 42.\n5. **Multiply by 4**: After that, we multiply 42 by 4 to get 168.\n6. **Subtract 8**: We then subtract 8 from 168 to get 160.\n7. **Add 2**: Finally, we add 2 to 160 to get 162.\n\nTherefore, after applying all the operations in order, the final value is 162.\n\nAnswer: 162\nThe best answer is: $\\boxed{162}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 207
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0065",
+      "question": "Start from 5. Apply the following 8 operations in order: subtract 12, add 5, multiply 4, subtract 8, multiply 4, subtract 7, multiply 4, subtract 6. What is the final value?",
+      "prediction": "-290",
+      "reference": -290,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 5.\n\n1. Subtract 12: 5 - 12 = -7\n2. Add 5: -7 + 5 = -2\n3. Multiply by 4: -2 * 4 = -8\n4. Subtract 8: -8 - 8 = -16\n5. Multiply by 4: -16 * 4 = -64\n6. Subtract 7: -64 - 7 = -71\n7. Multiply by 4: -71 * 4 = -284\n8. Subtract 6: -284 - 6 = -290\n\nAnswer: -290\nThe best answer is -290",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 159
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0066",
+      "question": "Start from 6. Apply the following 8 operations in order: subtract 5, add 2, multiply 2, subtract 2, multiply 4, multiply 2, add 4, multiply 3. What is the final value?",
+      "prediction": "108.",
+      "reference": 108,
+      "llm_response": {
+        "content": "Let's start with the initial value of 6 and apply the operations one by one.\n\n1. Subtract 5: 6 - 5 = 1\n2. Add 2: 1 + 2 = 3\n3. Multiply 2: 3 * 2 = 6\n4. Subtract 2: 6 - 2 = 4\n5. Multiply 4: 4 * 4 = 16\n6. Multiply 2: 16 * 2 = 32\n7. Add 4: 32 + 4 = 36\n8. Multiply 3: 36 * 3 = 108\n\nAnswer: 108.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 145
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0067",
+      "question": "Start from 11. Apply the following 8 operations in order: multiply 4, subtract 2, add 5, add 6, add 5, add 12, multiply 2, subtract 1. What is the final value?",
+      "prediction": "139.",
+      "reference": 139,
+      "llm_response": {
+        "content": "We start with the value 11. \nFirst operation: multiply 4. 11 * 4 = 44.\nSecond operation: subtract 2. 44 - 2 = 42.\nThird operation: add 5. 42 + 5 = 47.\nFourth operation: add 6. 47 + 6 = 53.\nFifth operation: add 5. 53 + 5 = 58.\nSixth operation: add 12. 58 + 12 = 70.\nSeventh operation: multiply 2. 70 * 2 = 140.\nEighth operation: subtract 1. 140 - 1 = 139.\nAnswer: 139. \nNote: There is no table or context to consider in this problem, as the operations are explicitly stated in the question. \nAnswer: 139. \nNote: The table and context are not used in this problem. \nAnswer: 139. \nNote: The table and context are empty and do not affect the solution. \nAnswer: 139. \nNote: The problem does not rely on the table or context. \nAnswer: 139. \nNote: The table and context provided are empty and irrelevant to the solution.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 256
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0068",
+      "question": "Start from 10. Apply the following 7 operations in order: subtract 12, add 11, subtract 2, add 10, subtract 8, subtract 8, subtract 3. What is the final value?",
+      "prediction": "-2",
+      "reference": -2,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 10.\n\n1. Subtract 12: 10 - 12 = -2\n2. Add 11: -2 + 11 = 9\n3. Subtract 2: 9 - 2 = 7\n4. Add 10: 7 + 10 = 17\n5. Subtract 8: 17 - 8 = 9\n6. Subtract 8: 9 - 8 = 1\n7. Subtract 3: 1 - 3 = -2\n\nAnswer: -2\nThe best answer is -2",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 141
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0069",
+      "question": "Start from 6. Apply the following 7 operations in order: subtract 2, add 7, subtract 2, multiply 4, multiply 2, add 3, multiply 3. What is the final value?",
+      "prediction": "225",
+      "reference": 225,
+      "llm_response": {
+        "content": "To solve this problem, we will apply each operation in the given order, starting from the initial value of 6.\n\n1. Start with 6.\n2. Subtract 2: 6 - 2 = 4\n3. Add 7: 4 + 7 = 11\n4. Subtract 2: 11 - 2 = 9\n5. Multiply by 4: 9 * 4 = 36\n6. Multiply by 2: 36 * 2 = 72\n7. Add 3: 72 + 3 = 75\n8. Multiply by 3: 75 * 3 = 225\n\nAnswer: 225\nThe best answer is 225",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 152
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0070",
+      "question": "Start from 5. Apply the following 7 operations in order: add 9, subtract 10, multiply 4, add 9, subtract 8, subtract 5, multiply 3. What is the final value?",
+      "prediction": "36",
+      "reference": 36,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 5 and then follow the sequence of operations step by step.\n\n1. Start with 5.\n2. Add 9: 5 + 9 = 14.\n3. Subtract 10: 14 - 10 = 4.\n4. Multiply by 4: 4 * 4 = 16.\n5. Add 9: 16 + 9 = 25.\n6. Subtract 8: 25 - 8 = 17.\n7. Subtract 5: 17 - 5 = 12.\n8. Multiply by 3: 12 * 3 = 36.\n\nTherefore, after applying all the operations in order, the final value is 36.\n\nAnswer: 36\nThe best answer is: $\\boxed{36}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 181
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0071",
+      "question": "Start from 11. Apply the following 8 operations in order: multiply 2, multiply 4, add 4, multiply 2, subtract 11, add 3, add 3, multiply 2. What is the final value?",
+      "prediction": "358.",
+      "reference": 358,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 11.\n\n1. Multiply 2: 11 * 2 = 22\n2. Multiply 4: 22 * 4 = 88\n3. Add 4: 88 + 4 = 92\n4. Multiply 2: 92 * 2 = 184\n5. Subtract 11: 184 - 11 = 173\n6. Add 3: 173 + 3 = 176\n7. Add 3: 176 + 3 = 179\n8. Multiply 2: 179 * 2 = 358\n\nAnswer: 358.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 150
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0072",
+      "question": "Start from 2. Apply the following 7 operations in order: subtract 8, multiply 4, subtract 5, add 4, subtract 12, subtract 12, subtract 2. What is the final value?",
+      "prediction": "-51",
+      "reference": -51,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 2.\n\n1. Subtract 8: 2 - 8 = -6\n2. Multiply by 4: -6 * 4 = -24\n3. Subtract 5: -24 - 5 = -29\n4. Add 4: -29 + 4 = -25\n5. Subtract 12: -25 - 12 = -37\n6. Subtract 12: -37 - 12 = -49\n7. Subtract 2: -49 - 2 = -51\n\nAnswer: -51\nThe best answer is -51",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 142
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0073",
+      "question": "Start from 6. Apply the following 7 operations in order: multiply 4, multiply 2, subtract 2, multiply 2, multiply 2, subtract 3, add 1. What is the final value?",
+      "prediction": "182",
+      "reference": 182,
+      "llm_response": {
+        "content": "To solve this problem, we will follow the given operations in order, starting from the initial value of 6.\n\n1. Multiply 4: 6 * 4 = 24\n2. Multiply 2: 24 * 2 = 48\n3. Subtract 2: 48 - 2 = 46\n4. Multiply 2: 46 * 2 = 92\n5. Multiply 2: 92 * 2 = 184\n6. Subtract 3: 184 - 3 = 181\n7. Add 1: 181 + 1 = 182\n\nAnswer: 182\nThe best answer is 182. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 148
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0074",
+      "question": "Start from 6. Apply the following 7 operations in order: multiply 4, multiply 3, subtract 2, subtract 12, subtract 12, subtract 5, multiply 4. What is the final value?",
+      "prediction": "164.",
+      "reference": 164,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 6.\n\n1. Multiply 4: 6 * 4 = 24\n2. Multiply 3: 24 * 3 = 72\n3. Subtract 2: 72 - 2 = 70\n4. Subtract 12: 70 - 12 = 58\n5. Subtract 12: 58 - 12 = 46\n6. Subtract 5: 46 - 5 = 41\n7. Multiply 4: 41 * 4 = 164\n\nAnswer: 164.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 135
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0075",
+      "question": "Start from 9. Apply the following 8 operations in order: add 10, add 7, multiply 3, multiply 3, add 2, add 11, multiply 4, add 11. What is the final value?",
+      "prediction": "999",
+      "reference": 999,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9 and then follow the sequence of operations step by step.\n\n1. Start with 9.\n2. Add 10: 9 + 10 = 19.\n3. Add 7: 19 + 7 = 26.\n4. Multiply by 3: 26 * 3 = 78.\n5. Multiply by 3 again: 78 * 3 = 234.\n6. Add 2: 234 + 2 = 236.\n7. Add 11: 236 + 11 = 247.\n8. Multiply by 4: 247 * 4 = 988.\n9. Add 11: 988 + 11 = 999.\n\nTherefore, after applying all the operations in order, the final value is 999.\n\nAnswer: 999\nThe best answer is: $\\boxed{999}$",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 198
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0076",
+      "question": "Start from 11. Apply the following 8 operations in order: add 3, subtract 9, multiply 3, subtract 3, multiply 3, multiply 3, add 8, subtract 7. What is the final value?",
+      "prediction": "109.",
+      "reference": 109,
+      "llm_response": {
+        "content": "Let's start with the initial value of 11 and apply the operations in order.\n\n1. Add 3: 11 + 3 = 14\n2. Subtract 9: 14 - 9 = 5\n3. Multiply 3: 5 * 3 = 15\n4. Subtract 3: 15 - 3 = 12\n5. Multiply 3: 12 * 3 = 36\n6. Multiply 3: 36 * 3 = 108\n7. Add 8: 108 + 8 = 116\n8. Subtract 7: 116 - 7 = 109\n\nAnswer: 109.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 144
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0077",
+      "question": "Start from 7. Apply the following 8 operations in order: multiply 2, add 6, subtract 12, subtract 5, multiply 3, multiply 2, subtract 2, subtract 5. What is the final value?",
+      "prediction": "11",
+      "reference": 11,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 7.\n\n1. Multiply 2: 7 * 2 = 14\n2. Add 6: 14 + 6 = 20\n3. Subtract 12: 20 - 12 = 8\n4. Subtract 5: 8 - 5 = 3\n5. Multiply 3: 3 * 3 = 9\n6. Multiply 2: 9 * 2 = 18\n7. Subtract 2: 18 - 2 = 16\n8. Subtract 5: 16 - 5 = 11\n\nAnswer: 11\nThe best answer is 11",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 156
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0078",
+      "question": "Start from 3. Apply the following 8 operations in order: subtract 9, add 11, multiply 3, subtract 1, add 9, subtract 10, subtract 11, subtract 1. What is the final value?",
+      "prediction": "1",
+      "reference": 1,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. Subtract 9: 3 - 9 = -6\n2. Add 11: -6 + 11 = 5\n3. Multiply by 3: 5 * 3 = 15\n4. Subtract 1: 15 - 1 = 14\n5. Add 9: 14 + 9 = 23\n6. Subtract 10: 23 - 10 = 13\n7. Subtract 11: 13 - 11 = 2\n8. Subtract 1: 2 - 1 = 1\n\nAnswer: 1\nThe best answer is 1.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 158
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0079",
+      "question": "Start from 6. Apply the following 7 operations in order: multiply 2, subtract 8, multiply 3, add 1, multiply 4, add 12, add 5. What is the final value?",
+      "prediction": "69",
+      "reference": 69,
+      "llm_response": {
+        "content": "To solve this problem, we will apply each operation in the given order, starting from the initial value of 6.\n\n1. Multiply 2: 6 * 2 = 12\n2. Subtract 8: 12 - 8 = 4\n3. Multiply 3: 4 * 3 = 12\n4. Add 1: 12 + 1 = 13\n5. Multiply 4: 13 * 4 = 52\n6. Add 12: 52 + 12 = 64\n7. Add 5: 64 + 5 = 69\n\nAnswer: 69\nThe best answer is: $\\boxed{69}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 146
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0080",
+      "question": "Start from 10. Apply the following 7 operations in order: subtract 2, add 2, subtract 2, multiply 2, subtract 12, subtract 9, multiply 3. What is the final value?",
+      "prediction": "-15.",
+      "reference": -15,
+      "llm_response": {
+        "content": "Let's apply the operations step by step:\n1. Start with 10.\n2. Subtract 2: 10 - 2 = 8.\n3. Add 2: 8 + 2 = 10.\n4. Subtract 2: 10 - 2 = 8.\n5. Multiply 2: 8 * 2 = 16.\n6. Subtract 12: 16 - 12 = 4.\n7. Subtract 9: 4 - 9 = -5.\n8. Multiply 3: -5 * 3 = -15.\nAnswer: -15.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 128
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0081",
+      "question": "Start from 9. Apply the following 8 operations in order: subtract 4, subtract 9, add 7, add 10, multiply 4, add 2, subtract 7, subtract 9. What is the final value?",
+      "prediction": "38",
+      "reference": 38,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9.\n\n1. Subtract 4: 9 - 4 = 5\n2. Subtract 9: 5 - 9 = -4\n3. Add 7: -4 + 7 = 3\n4. Add 10: 3 + 10 = 13\n5. Multiply by 4: 13 * 4 = 52\n6. Add 2: 52 + 2 = 54\n7. Subtract 7: 54 - 7 = 47\n8. Subtract 9: 47 - 9 = 38\n\nAnswer: 38\nThe best answer is 38. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 164
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0082",
+      "question": "Start from 2. Apply the following 8 operations in order: subtract 12, subtract 10, multiply 4, subtract 3, subtract 9, subtract 6, subtract 9, multiply 3. What is the final value?",
+      "prediction": "-321.",
+      "reference": -321,
+      "llm_response": {
+        "content": "Let's apply the operations step by step, starting from 2.\n1. Subtract 12: 2 - 12 = -10\n2. Subtract 10: -10 - 10 = -20\n3. Multiply 4: -20 * 4 = -80\n4. Subtract 3: -80 - 3 = -83\n5. Subtract 9: -83 - 9 = -92\n6. Subtract 6: -92 - 6 = -98\n7. Subtract 9: -98 - 9 = -107\n8. Multiply 3: -107 * 3 = -321\nAnswer: -321.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 140
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0083",
+      "question": "Start from 7. Apply the following 8 operations in order: add 12, add 10, subtract 4, subtract 1, subtract 12, subtract 12, subtract 7, multiply 4. What is the final value?",
+      "prediction": "-28",
+      "reference": -28,
+      "llm_response": {
+        "content": "Let's start with the initial value of 7 and apply the operations one by one.\n\n1. Add 12: 7 + 12 = 19\n2. Add 10: 19 + 10 = 29\n3. Subtract 4: 29 - 4 = 25\n4. Subtract 1: 25 - 1 = 24\n5. Subtract 12: 24 - 12 = 12\n6. Subtract 12: 12 - 12 = 0\n7. Subtract 7: 0 - 7 = -7\n8. Multiply 4: -7 * 4 = -28\n\nAnswer: -28\nThe best answer is -28",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 150
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0084",
+      "question": "Start from 9. Apply the following 7 operations in order: add 3, multiply 4, subtract 2, subtract 2, multiply 3, add 12, add 7. What is the final value?",
+      "prediction": "151",
+      "reference": 151,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9.\n\n1. Add 3: 9 + 3 = 12\n2. Multiply by 4: 12 * 4 = 48\n3. Subtract 2: 48 - 2 = 46\n4. Subtract 2: 46 - 2 = 44\n5. Multiply by 3: 44 * 3 = 132\n6. Add 12: 132 + 12 = 144\n7. Add 7: 144 + 7 = 151\n\nAnswer: 151\nThe best answer is 151. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 150
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0085",
+      "question": "Start from 3. Apply the following 7 operations in order: subtract 5, subtract 10, multiply 3, multiply 2, subtract 11, multiply 3, subtract 11. What is the final value?",
+      "prediction": "-260",
+      "reference": -260,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. Subtract 5: 3 - 5 = -2\n2. Subtract 10: -2 - 10 = -12\n3. Multiply 3: -12 * 3 = -36\n4. Multiply 2: -36 * 2 = -72\n5. Subtract 11: -72 - 11 = -83\n6. Multiply 3: -83 * 3 = -249\n7. Subtract 11: -249 - 11 = -260\n\nAnswer: -260\nThe best answer is -260",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 141
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0086",
+      "question": "Start from 10. Apply the following 8 operations in order: add 10, add 4, multiply 4, subtract 4, multiply 2, subtract 2, multiply 4, add 8. What is the final value?",
+      "prediction": "736.",
+      "reference": 736,
+      "llm_response": {
+        "content": "Let's apply the operations step by step:\n1. Start with 10.\n2. Add 10: 10 + 10 = 20.\n3. Add 4: 20 + 4 = 24.\n4. Multiply 4: 24 * 4 = 96.\n5. Subtract 4: 96 - 4 = 92.\n6. Multiply 2: 92 * 2 = 184.\n7. Subtract 2: 184 - 2 = 182.\n8. Multiply 4: 182 * 4 = 728.\n9. Add 8: 728 + 8 = 736.\nAnswer: 736.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 142
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0087",
+      "question": "Start from 6. Apply the following 7 operations in order: add 1, subtract 1, subtract 6, subtract 7, add 4, multiply 3, multiply 4. What is the final value?",
+      "prediction": "-36",
+      "reference": -36,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 6.\n\n1. Add 1: 6 + 1 = 7\n2. Subtract 1: 7 - 1 = 6\n3. Subtract 6: 6 - 6 = 0\n4. Subtract 7: 0 - 7 = -7\n5. Add 4: -7 + 4 = -3\n6. Multiply by 3: -3 * 3 = -9\n7. Multiply by 4: -9 * 4 = -36\n\nAnswer: -36\nThe best answer is -36",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 143
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0088",
+      "question": "Start from 4. Apply the following 7 operations in order: add 2, multiply 3, multiply 4, add 8, multiply 2, add 8, multiply 3. What is the final value?",
+      "prediction": "504",
+      "reference": 504,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 4.\n\n1. **Add 2**: Starting with 4, we add 2 to get 6.\n2. **Multiply 3**: We then multiply 6 by 3 to get 18.\n3. **Multiply 4**: Next, we multiply 18 by 4 to get 72.\n4. **Add 8**: We add 8 to 72, resulting in 80.\n5. **Multiply 2**: Then, we multiply 80 by 2 to get 160.\n6. **Add 8**: Adding 8 to 160 gives us 168.\n7. **Multiply 3**: Finally, we multiply 168 by 3 to get 504.\n\nTherefore, after applying all the operations in order, the final value is 504.\n\nAnswer: 504\nThe best answer is: $\\boxed{504}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 199
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0089",
+      "question": "Start from 6. Apply the following 8 operations in order: multiply 2, subtract 5, multiply 4, add 2, subtract 6, multiply 3, multiply 3, multiply 3. What is the final value?",
+      "prediction": "648.",
+      "reference": 648,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 6.\n\n1. Multiply 2: 6 * 2 = 12\n2. Subtract 5: 12 - 5 = 7\n3. Multiply 4: 7 * 4 = 28\n4. Add 2: 28 + 2 = 30\n5. Subtract 6: 30 - 6 = 24\n6. Multiply 3: 24 * 3 = 72\n7. Multiply 3: 72 * 3 = 216\n8. Multiply 3: 216 * 3 = 648\n\nAnswer: 648.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 150
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0090",
+      "question": "Start from 6. Apply the following 8 operations in order: add 7, subtract 2, add 7, multiply 3, multiply 3, multiply 3, add 11, subtract 5. What is the final value?",
+      "prediction": "492",
+      "reference": 492,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 6.\n\n1. **Add 7**: Starting with 6, we add 7 to get 13.\n2. **Subtract 2**: From 13, we subtract 2 to get 11.\n3. **Add 7**: To 11, we add 7 to get 18.\n4. **Multiply by 3**: We multiply 18 by 3 to get 54.\n5. **Multiply by 3**: Then, we multiply 54 by 3 to get 162.\n6. **Multiply by 3**: Next, we multiply 162 by 3 to get 486.\n7. **Add 11**: To 486, we add 11 to get 497.\n8. **Subtract 5**: Finally, we subtract 5 from 497 to get 492.\n\nTherefore, after applying all the operations in order, the final value is 492.\n\nAnswer: 492\nThe best answer is: $\\boxed{492}$",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 225
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0091",
+      "question": "Start from 11. Apply the following 7 operations in order: multiply 4, add 10, multiply 3, subtract 4, multiply 3, add 11, add 10. What is the final value?",
+      "prediction": "495",
+      "reference": 495,
+      "llm_response": {
+        "content": "Let's apply the operations in order, starting from 11.\n1. Multiply 4: 11 * 4 = 44\n2. Add 10: 44 + 10 = 54\n3. Multiply 3: 54 * 3 = 162\n4. Subtract 4: 162 - 4 = 158\n5. Multiply 3: 158 * 3 = 474\n6. Add 11: 474 + 11 = 485\n7. Add 10: 485 + 10 = 495\nAnswer: 495\nThe best answer is 495. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 138
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0092",
+      "question": "Start from 12. Apply the following 8 operations in order: multiply 4, multiply 2, multiply 2, multiply 4, add 5, subtract 1, multiply 3, multiply 2. What is the final value?",
+      "prediction": "4632.",
+      "reference": 4632,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 12.\n\n1. Multiply 4: 12 * 4 = 48\n2. Multiply 2: 48 * 2 = 96\n3. Multiply 2: 96 * 2 = 192\n4. Multiply 4: 192 * 4 = 768\n5. Add 5: 768 + 5 = 773\n6. Subtract 1: 773 - 1 = 772\n7. Multiply 3: 772 * 3 = 2316\n8. Multiply 2: 2316 * 2 = 4632\n\nAnswer: 4632.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 154
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0093",
+      "question": "Start from 6. Apply the following 7 operations in order: subtract 12, subtract 3, add 3, multiply 3, multiply 4, subtract 3, subtract 8. What is the final value?",
+      "prediction": "-83",
+      "reference": -83,
+      "llm_response": {
+        "content": "Let's apply the operations step by step, starting from 6.\n\n1. Subtract 12: 6 - 12 = -6\n2. Subtract 3: -6 - 3 = -9\n3. Add 3: -9 + 3 = -6\n4. Multiply 3: -6 * 3 = -18\n5. Multiply 4: -18 * 4 = -72\n6. Subtract 3: -72 - 3 = -75\n7. Subtract 8: -75 - 8 = -83\n\nAnswer: -83\nThe best answer is -83",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 132
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0094",
+      "question": "Start from 7. Apply the following 8 operations in order: add 8, add 3, add 11, multiply 4, subtract 9, subtract 2, subtract 1, subtract 9. What is the final value?",
+      "prediction": "95",
+      "reference": 95,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 7 and then apply each operation step by step.\n\n1. Start with 7.\n2. Add 8: 7 + 8 = 15\n3. Add 3: 15 + 3 = 18\n4. Add 11: 18 + 11 = 29\n5. Multiply by 4: 29 * 4 = 116\n6. Subtract 9: 116 - 9 = 107\n7. Subtract 2: 107 - 2 = 105\n8. Subtract 1: 105 - 1 = 104\n9. Subtract 9: 104 - 9 = 95\n\nAfter applying all the operations in order, the final value is determined.\n\nAnswer: 95\nThe best answer is: $\\boxed{95}$",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 190
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0095",
+      "question": "Start from 9. Apply the following 7 operations in order: subtract 11, multiply 4, subtract 10, subtract 11, subtract 2, multiply 2, subtract 1. What is the final value?",
+      "prediction": "-63",
+      "reference": -63,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9.\n\n1. Subtract 11: 9 - 11 = -2\n2. Multiply 4: -2 * 4 = -8\n3. Subtract 10: -8 - 10 = -18\n4. Subtract 11: -18 - 11 = -29\n5. Subtract 2: -29 - 2 = -31\n6. Multiply 2: -31 * 2 = -62\n7. Subtract 1: -62 - 1 = -63\n\nAnswer: -63\nThe best answer is -63",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 141
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0096",
+      "question": "Start from 11. Apply the following 8 operations in order: add 11, add 11, subtract 12, subtract 11, subtract 2, add 1, add 5, subtract 2. What is the final value?",
+      "prediction": "",
+      "reference": 12,
+      "llm_response": {
+        "content": "Let's apply the operations step by step:\n1. Start with 11.\n2. Add 11: 11 + 11 = 22.\n3. Add 11: 22 + 11 = 33.\n4. Subtract 12: 33 - 12 = 21.\n5. Subtract 11: 21 - 11 = 10.\n6. Subtract 2: 10 - 2 = 8.\n7. Add 1: 8 + 1 = 9.\n8. Add 5: 9 + 5 = 14.\n9. Subtract 2: 14 - 2 = 12.\nAnswer: 12. \nNote: There is no table or context provided, so the solution only relies on the given operations and the initial value of 11. \nAnswer: 12. \nNote: I will remove the extra line as per the format request.\nAnswer: 12. \nI will remove the extra lines.\nAnswer: 12. \nI will remove the extra lines as per the request.\nAnswer: 12. \nI will follow the format to the letter from now on.\nAnswer: 12. \nI will make sure to follow the format.\nAnswer:",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 256
+        }
+      },
+      "correct": false
+    },
+    {
+      "id": "multi-hop-dev-0097",
+      "question": "Start from 5. Apply the following 7 operations in order: multiply 2, subtract 8, subtract 11, multiply 4, multiply 3, multiply 4, multiply 2. What is the final value?",
+      "prediction": "-864",
+      "reference": -864,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 5.\n\n1. Multiply 2: 5 * 2 = 10\n2. Subtract 8: 10 - 8 = 2\n3. Subtract 11: 2 - 11 = -9\n4. Multiply 4: -9 * 4 = -36\n5. Multiply 3: -36 * 3 = -108\n6. Multiply 4: -108 * 4 = -432\n7. Multiply 2: -432 * 2 = -864\n\nAnswer: -864\nThe best answer is -864",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 141
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0098",
+      "question": "Start from 12. Apply the following 8 operations in order: add 8, multiply 3, subtract 1, multiply 3, add 8, subtract 4, subtract 2, multiply 3. What is the final value?",
+      "prediction": "537",
+      "reference": 537,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 12.\n\n1. Add 8: 12 + 8 = 20\n2. Multiply 3: 20 * 3 = 60\n3. Subtract 1: 60 - 1 = 59\n4. Multiply 3: 59 * 3 = 177\n5. Add 8: 177 + 8 = 185\n6. Subtract 4: 185 - 4 = 181\n7. Subtract 2: 181 - 2 = 179\n8. Multiply 3: 179 * 3 = 537\n\nAnswer: 537\nThe best answer is 537",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 156
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0099",
+      "question": "Start from 2. Apply the following 8 operations in order: subtract 5, add 2, subtract 2, multiply 2, multiply 4, multiply 2, add 6, add 3. What is the final value?",
+      "prediction": "-39",
+      "reference": -39,
+      "llm_response": {
+        "content": "Let's apply the operations in order, starting from 2:\n1. Subtract 5: 2 - 5 = -3\n2. Add 2: -3 + 2 = -1\n3. Subtract 2: -1 - 2 = -3\n4. Multiply 2: -3 * 2 = -6\n5. Multiply 4: -6 * 4 = -24\n6. Multiply 2: -24 * 2 = -48\n7. Add 6: -48 + 6 = -42\n8. Add 3: -42 + 3 = -39\nAnswer: -39\nThe best answer is -39",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 146
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0100",
+      "question": "Start from 3. Apply the following 7 operations in order: multiply 2, multiply 2, add 6, add 10, add 5, add 3, multiply 3. What is the final value?",
+      "prediction": "108.",
+      "reference": 108,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. Multiply 2: 3 * 2 = 6\n2. Multiply 2: 6 * 2 = 12\n3. Add 6: 12 + 6 = 18\n4. Add 10: 18 + 10 = 28\n5. Add 5: 28 + 5 = 33\n6. Add 3: 33 + 3 = 36\n7. Multiply 3: 36 * 3 = 108\n\nAnswer: 108.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 135
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0101",
+      "question": "Start from 3. Apply the following 7 operations in order: multiply 2, add 1, subtract 4, multiply 3, add 3, subtract 1, add 12. What is the final value?",
+      "prediction": "23",
+      "reference": 23,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. Multiply by 2: 3 * 2 = 6\n2. Add 1: 6 + 1 = 7\n3. Subtract 4: 7 - 4 = 3\n4. Multiply by 3: 3 * 3 = 9\n5. Add 3: 9 + 3 = 12\n6. Subtract 1: 12 - 1 = 11\n7. Add 12: 11 + 12 = 23\n\nAnswer: 23\nThe best answer is: $\\boxed{23}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 147
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0102",
+      "question": "Start from 10. Apply the following 8 operations in order: add 12, add 8, subtract 6, multiply 4, add 8, multiply 2, multiply 2, multiply 4. What is the final value?",
+      "prediction": "1664.",
+      "reference": 1664,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 10.\n\n1. Add 12: 10 + 12 = 22\n2. Add 8: 22 + 8 = 30\n3. Subtract 6: 30 - 6 = 24\n4. Multiply by 4: 24 * 4 = 96\n5. Add 8: 96 + 8 = 104\n6. Multiply by 2: 104 * 2 = 208\n7. Multiply by 2: 208 * 2 = 416\n8. Multiply by 4: 416 * 4 = 1664\n\nAnswer: 1664.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 156
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0103",
+      "question": "Start from 9. Apply the following 8 operations in order: multiply 2, add 8, subtract 7, multiply 2, subtract 12, subtract 2, add 6, multiply 2. What is the final value?",
+      "prediction": "60",
+      "reference": 60,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9.\n\n1. Multiply 2: 9 * 2 = 18\n2. Add 8: 18 + 8 = 26\n3. Subtract 7: 26 - 7 = 19\n4. Multiply 2: 19 * 2 = 38\n5. Subtract 12: 38 - 12 = 26\n6. Subtract 2: 26 - 2 = 24\n7. Add 6: 24 + 6 = 30\n8. Multiply 2: 30 * 2 = 60\n\nTherefore, after applying all the operations in order, the final value is 60.\n\nAnswer: 60\nThe best answer is 60",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 173
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0104",
+      "question": "Start from 4. Apply the following 7 operations in order: subtract 10, multiply 4, multiply 4, subtract 7, multiply 4, subtract 8, multiply 4. What is the final value?",
+      "prediction": "-1680.",
+      "reference": -1680,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 4.\n\n1. Subtract 10: 4 - 10 = -6\n2. Multiply 4: -6 * 4 = -24\n3. Multiply 4: -24 * 4 = -96\n4. Subtract 7: -96 - 7 = -103\n5. Multiply 4: -103 * 4 = -412\n6. Subtract 8: -412 - 8 = -420\n7. Multiply 4: -420 * 4 = -1680\n\nAnswer: -1680.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 137
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0105",
+      "question": "Start from 3. Apply the following 8 operations in order: multiply 2, multiply 4, multiply 4, add 7, subtract 4, subtract 6, subtract 7, subtract 12. What is the final value?",
+      "prediction": "74",
+      "reference": 74,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 3.\n\n1. Multiply 2: 3 * 2 = 6\n2. Multiply 4: 6 * 4 = 24\n3. Multiply 4: 24 * 4 = 96\n4. Add 7: 96 + 7 = 103\n5. Subtract 4: 103 - 4 = 99\n6. Subtract 6: 99 - 6 = 93\n7. Subtract 7: 93 - 7 = 86\n8. Subtract 12: 86 - 12 = 74\n\nAnswer: 74\nThe best answer is 74. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 163
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0106",
+      "question": "Start from 7. Apply the following 7 operations in order: subtract 6, multiply 3, subtract 3, multiply 3, add 2, add 2, subtract 2. What is the final value?",
+      "prediction": "2.",
+      "reference": 2,
+      "llm_response": {
+        "content": "Let's apply the operations step by step:\n1. Start with 7.\n2. Subtract 6: 7 - 6 = 1.\n3. Multiply 3: 1 * 3 = 3.\n4. Subtract 3: 3 - 3 = 0.\n5. Multiply 3: 0 * 3 = 0.\n6. Add 2: 0 + 2 = 2.\n7. Add 2: 2 + 2 = 4.\n8. Subtract 2: 4 - 2 = 2.\nAnswer: 2.",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 128
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0107",
+      "question": "Start from 4. Apply the following 8 operations in order: multiply 2, multiply 4, multiply 3, multiply 2, subtract 6, multiply 3, multiply 2, subtract 10. What is the final value?",
+      "prediction": "1106.",
+      "reference": 1106,
+      "llm_response": {
+        "content": "Let's start with the initial value of 4 and apply the operations step by step:\n1. Multiply 2: 4 * 2 = 8\n2. Multiply 4: 8 * 4 = 32\n3. Multiply 3: 32 * 3 = 96\n4. Multiply 2: 96 * 2 = 192\n5. Subtract 6: 192 - 6 = 186\n6. Multiply 3: 186 * 3 = 558\n7. Multiply 2: 558 * 2 = 1116\n8. Subtract 10: 1116 - 10 = 1106\nAnswer: 1106.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 149
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0108",
+      "question": "Start from 7. Apply the following 8 operations in order: add 10, multiply 2, add 11, subtract 4, add 6, multiply 3, add 5, multiply 2. What is the final value?",
+      "prediction": "292",
+      "reference": 292,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 7.\n\n1. Add 10: 7 + 10 = 17\n2. Multiply by 2: 17 * 2 = 34\n3. Add 11: 34 + 11 = 45\n4. Subtract 4: 45 - 4 = 41\n5. Add 6: 41 + 6 = 47\n6. Multiply by 3: 47 * 3 = 141\n7. Add 5: 141 + 5 = 146\n8. Multiply by 2: 146 * 2 = 292\n\nAnswer: 292\nThe best answer is 292. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 166
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0109",
+      "question": "Start from 10. Apply the following 8 operations in order: multiply 4, multiply 4, multiply 2, multiply 4, multiply 3, add 3, subtract 12, subtract 6. What is the final value?",
+      "prediction": "3825.",
+      "reference": 3825,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 10.\n\n1. Multiply 4: 10 * 4 = 40\n2. Multiply 4: 40 * 4 = 160\n3. Multiply 2: 160 * 2 = 320\n4. Multiply 4: 320 * 4 = 1280\n5. Multiply 3: 1280 * 3 = 3840\n6. Add 3: 3840 + 3 = 3843\n7. Subtract 12: 3843 - 12 = 3831\n8. Subtract 6: 3831 - 6 = 3825\n\nAnswer: 3825.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 160
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0110",
+      "question": "Start from 2. Apply the following 8 operations in order: add 3, multiply 4, subtract 2, add 12, multiply 2, add 12, multiply 2, subtract 7. What is the final value?",
+      "prediction": "137",
+      "reference": 137,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 2.\n\n1. Add 3: 2 + 3 = 5\n2. Multiply by 4: 5 * 4 = 20\n3. Subtract 2: 20 - 2 = 18\n4. Add 12: 18 + 12 = 30\n5. Multiply by 2: 30 * 2 = 60\n6. Add 12: 60 + 12 = 72\n7. Multiply by 2: 72 * 2 = 144\n8. Subtract 7: 144 - 7 = 137\n\nAnswer: 137\nThe best answer is 137. I hope it is correct.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 166
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0111",
+      "question": "Start from 7. Apply the following 8 operations in order: add 6, subtract 12, subtract 10, multiply 2, add 3, add 10, add 11, add 5. What is the final value?",
+      "prediction": "11",
+      "reference": 11,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 7 and then follow the sequence of operations step by step.\n\n1. Start with 7.\n2. Add 6: 7 + 6 = 13.\n3. Subtract 12: 13 - 12 = 1.\n4. Subtract 10: 1 - 10 = -9.\n5. Multiply by 2: -9 * 2 = -18.\n6. Add 3: -18 + 3 = -15.\n7. Add 10: -15 + 10 = -5.\n8. Add 11: -5 + 11 = 6.\n9. Add 5: 6 + 5 = 11.\n\nTherefore, after applying all the operations in order, the final value is 11.\n\nAnswer: 11\nThe best answer is: $\\boxed{11}$",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 195
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0112",
+      "question": "Start from 12. Apply the following 8 operations in order: subtract 8, multiply 3, subtract 5, add 9, add 6, subtract 2, subtract 11, multiply 4. What is the final value?",
+      "prediction": "36",
+      "reference": 36,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 12.\n\n1. Subtract 8: 12 - 8 = 4\n2. Multiply 3: 4 * 3 = 12\n3. Subtract 5: 12 - 5 = 7\n4. Add 9: 7 + 9 = 16\n5. Add 6: 16 + 6 = 22\n6. Subtract 2: 22 - 2 = 20\n7. Subtract 11: 20 - 11 = 9\n8. Multiply 4: 9 * 4 = 36\n\nAnswer: 36\nThe best answer is 36",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 156
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0113",
+      "question": "Start from 10. Apply the following 8 operations in order: multiply 3, add 4, subtract 10, add 1, add 5, add 3, subtract 5, subtract 2. What is the final value?",
+      "prediction": "",
+      "reference": 26,
+      "llm_response": {
+        "content": "We start with the value 10. \nFirst operation: multiply 3. 10 * 3 = 30.\nSecond operation: add 4. 30 + 4 = 34.\nThird operation: subtract 10. 34 - 10 = 24.\nFourth operation: add 1. 24 + 1 = 25.\nFifth operation: add 5. 25 + 5 = 30.\nSixth operation: add 3. 30 + 3 = 33.\nSeventh operation: subtract 5. 33 - 5 = 28.\nEighth operation: subtract 2. 28 - 2 = 26.\nAnswer: 26. \nNote: There is no table or context to consider in this problem. The question provides a clear sequence of operations to apply to the initial value of 10. \nAnswer: 26. \nNote: The problem does not require any information from the table or context, as it is a straightforward sequence of arithmetic operations starting from a given initial value. \nAnswer: 26. \nNote: The step-by-step application of the operations as described in the question leads directly to the final answer without needing any external information. \nAnswer:",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 256
+        }
+      },
+      "correct": false
+    },
+    {
+      "id": "multi-hop-dev-0114",
+      "question": "Start from 9. Apply the following 7 operations in order: multiply 3, add 3, subtract 9, multiply 2, multiply 4, multiply 3, add 7. What is the final value?",
+      "prediction": "511",
+      "reference": 511,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 9.\n\n1. Multiply 3: 9 * 3 = 27\n2. Add 3: 27 + 3 = 30\n3. Subtract 9: 30 - 9 = 21\n4. Multiply 2: 21 * 2 = 42\n5. Multiply 4: 42 * 4 = 168\n6. Multiply 3: 168 * 3 = 504\n7. Add 7: 504 + 7 = 511\n\nAnswer: 511\nThe best answer is 511",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 141
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0115",
+      "question": "Start from 8. Apply the following 7 operations in order: add 8, add 6, multiply 3, multiply 3, multiply 4, subtract 5, add 7. What is the final value?",
+      "prediction": "794",
+      "reference": 794,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 8.\n\n1. **Add 8**: Starting with 8, we add 8 to get 16.\n2. **Add 6**: Then, we add 6 to 16, resulting in 22.\n3. **Multiply 3**: Next, we multiply 22 by 3, which gives us 66.\n4. **Multiply 3**: We then multiply 66 by 3, yielding 198.\n5. **Multiply 4**: After that, we multiply 198 by 4, resulting in 792.\n6. **Subtract 5**: Following that, we subtract 5 from 792, giving us 787.\n7. **Add 7**: Finally, we add 7 to 787, which leads to a final value of 794.\n\nAnswer: 794\nThe best answer is: $\\boxed{794}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 200
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0116",
+      "question": "Start from 7. Apply the following 7 operations in order: add 10, subtract 12, subtract 2, subtract 2, add 7, multiply 3, multiply 2. What is the final value?",
+      "prediction": "48",
+      "reference": 48,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 7 and then apply each operation step by step.\n\n1. Start with 7.\n2. Add 10: 7 + 10 = 17.\n3. Subtract 12: 17 - 12 = 5.\n4. Subtract 2: 5 - 2 = 3.\n5. Subtract 2: 3 - 2 = 1.\n6. Add 7: 1 + 7 = 8.\n7. Multiply by 3: 8 * 3 = 24.\n8. Multiply by 2: 24 * 2 = 48.\n\nTherefore, after applying all the operations in order, the final value is 48.\n\nAnswer: 48\nThe best answer is: $\\boxed{48}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 179
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0117",
+      "question": "Start from 6. Apply the following 8 operations in order: multiply 3, add 6, add 2, multiply 4, add 9, multiply 2, subtract 6, multiply 4. What is the final value?",
+      "prediction": "880",
+      "reference": 880,
+      "llm_response": {
+        "content": "We start with the value 6. \n1. Multiply 3: 6 * 3 = 18\n2. Add 6: 18 + 6 = 24\n3. Add 2: 24 + 2 = 26\n4. Multiply 4: 26 * 4 = 104\n5. Add 9: 104 + 9 = 113\n6. Multiply 2: 113 * 2 = 226\n7. Subtract 6: 226 - 6 = 220\n8. Multiply 4: 220 * 4 = 880\nAnswer: 880\n\nThe final answer is: $\\boxed{880}$",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 146
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0118",
+      "question": "Start from 5. Apply the following 7 operations in order: add 3, subtract 4, add 10, add 11, add 3, multiply 3, subtract 10. What is the final value?",
+      "prediction": "74",
+      "reference": 74,
+      "llm_response": {
+        "content": "To find the final value after applying the given operations in order, we start with the initial value of 5.\n\n1. Add 3: 5 + 3 = 8\n2. Subtract 4: 8 - 4 = 4\n3. Add 10: 4 + 10 = 14\n4. Add 11: 14 + 11 = 25\n5. Add 3: 25 + 3 = 28\n6. Multiply by 3: 28 * 3 = 84\n7. Subtract 10: 84 - 10 = 74\n\nAnswer: 74\nThe best answer is: $\\boxed{74}$",
+        "usage": {
+          "prompt_tokens": 101,
+          "completion_tokens": 146
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "multi-hop-dev-0119",
+      "question": "Start from 12. Apply the following 8 operations in order: multiply 4, multiply 4, subtract 11, subtract 3, subtract 2, subtract 8, multiply 3, subtract 10. What is the final value?",
+      "prediction": "494.",
+      "reference": 494,
+      "llm_response": {
+        "content": "Let's start with the initial value of 12 and apply the operations one by one.\n\n1. Multiply 4: 12 * 4 = 48\n2. Multiply 4: 48 * 4 = 192\n3. Subtract 11: 192 - 11 = 181\n4. Subtract 3: 181 - 3 = 178\n5. Subtract 2: 178 - 2 = 176\n6. Subtract 8: 176 - 8 = 168\n7. Multiply 3: 168 * 3 = 504\n8. Subtract 10: 504 - 10 = 494\n\nAnswer: 494.",
+        "usage": {
+          "prompt_tokens": 105,
+          "completion_tokens": 145
+        }
+      },
+      "correct": true
+    }
+  ]
+}

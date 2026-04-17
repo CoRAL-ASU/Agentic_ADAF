@@ -1,0 +1,362 @@
+[
+  {
+    "id": "wikitq-000",
+    "question": "How many gold medals did Canada win?",
+    "answer": "2",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Canada",
+        2
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 2 gold medals for Canada."
+    ]
+  },
+  {
+    "id": "wikitq-001",
+    "question": "How many gold medals did USA win?",
+    "answer": "3",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "USA",
+        3
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 3 gold medals for USA."
+    ]
+  },
+  {
+    "id": "wikitq-002",
+    "question": "How many gold medals did Mexico win?",
+    "answer": "4",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Mexico",
+        4
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 4 gold medals for Mexico."
+    ]
+  },
+  {
+    "id": "wikitq-003",
+    "question": "How many gold medals did Brazil win?",
+    "answer": "5",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Brazil",
+        5
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 5 gold medals for Brazil."
+    ]
+  },
+  {
+    "id": "wikitq-004",
+    "question": "How many gold medals did Canada win?",
+    "answer": "6",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Canada",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 6 gold medals for Canada."
+    ]
+  },
+  {
+    "id": "wikitq-005",
+    "question": "How many gold medals did USA win?",
+    "answer": "2",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "USA",
+        2
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 2 gold medals for USA."
+    ]
+  },
+  {
+    "id": "wikitq-006",
+    "question": "How many gold medals did Mexico win?",
+    "answer": "3",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Mexico",
+        3
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 3 gold medals for Mexico."
+    ]
+  },
+  {
+    "id": "wikitq-007",
+    "question": "How many gold medals did Brazil win?",
+    "answer": "4",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Brazil",
+        4
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 4 gold medals for Brazil."
+    ]
+  },
+  {
+    "id": "wikitq-008",
+    "question": "How many gold medals did Canada win?",
+    "answer": "5",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Canada",
+        5
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 5 gold medals for Canada."
+    ]
+  },
+  {
+    "id": "wikitq-009",
+    "question": "How many gold medals did USA win?",
+    "answer": "6",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "USA",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 6 gold medals for USA."
+    ]
+  },
+  {
+    "id": "wikitq-010",
+    "question": "How many gold medals did Mexico win?",
+    "answer": "2",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Mexico",
+        2
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 2 gold medals for Mexico."
+    ]
+  },
+  {
+    "id": "wikitq-011",
+    "question": "How many gold medals did Brazil win?",
+    "answer": "3",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Brazil",
+        3
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 3 gold medals for Brazil."
+    ]
+  },
+  {
+    "id": "wikitq-012",
+    "question": "How many gold medals did Canada win?",
+    "answer": "4",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Canada",
+        4
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 4 gold medals for Canada."
+    ]
+  },
+  {
+    "id": "wikitq-013",
+    "question": "How many gold medals did USA win?",
+    "answer": "5",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "USA",
+        5
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 5 gold medals for USA."
+    ]
+  },
+  {
+    "id": "wikitq-014",
+    "question": "How many gold medals did Mexico win?",
+    "answer": "6",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Mexico",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 6 gold medals for Mexico."
+    ]
+  },
+  {
+    "id": "wikitq-015",
+    "question": "How many gold medals did Brazil win?",
+    "answer": "2",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Brazil",
+        2
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 2 gold medals for Brazil."
+    ]
+  },
+  {
+    "id": "wikitq-016",
+    "question": "How many gold medals did Canada win?",
+    "answer": "3",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Canada",
+        3
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 3 gold medals for Canada."
+    ]
+  },
+  {
+    "id": "wikitq-017",
+    "question": "How many gold medals did USA win?",
+    "answer": "4",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "USA",
+        4
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 4 gold medals for USA."
+    ]
+  },
+  {
+    "id": "wikitq-018",
+    "question": "How many gold medals did Mexico win?",
+    "answer": "5",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Mexico",
+        5
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 5 gold medals for Mexico."
+    ]
+  },
+  {
+    "id": "wikitq-019",
+    "question": "How many gold medals did Brazil win?",
+    "answer": "6",
+    "table": [
+      [
+        "Country",
+        "Gold"
+      ],
+      [
+        "Brazil",
+        6
+      ]
+    ],
+    "paragraphs": [
+      "The medal table lists 6 gold medals for Brazil."
+    ]
+  }
+]

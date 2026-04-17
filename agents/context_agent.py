@@ -10,6 +10,7 @@ class ContextAgent:
 
     def __init__(self, model: Optional[object] = None) -> None:  # pragma: no cover - trivial
         self.model = model
+
     def fetch_relevant_text(self, question: str, paragraphs: Optional[Iterable[str]] = None) -> str:
         """Return the most relevant paragraph for ``question``.
 

@@ -1,0 +1,6730 @@
+[
+  {
+    "id": "multi-hop-test-0000",
+    "question": "Start from 11. Apply the following 5 operations in order: multiply 4, subtract 8, add 11, subtract 11, multiply 2. What is the final value?",
+    "answer": 72,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((11*4)-8)+11)-11)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0001",
+    "question": "Start from 4. Apply the following 5 operations in order: subtract 10, add 12, subtract 7, add 11, subtract 2. What is the final value?",
+    "answer": 8,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((4-10)+12)-7)+11)-2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0002",
+    "question": "Start from 2. Apply the following 6 operations in order: add 11, multiply 2, add 11, subtract 3, add 9, multiply 3. What is the final value?",
+    "answer": 129,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((2+11)*2)+11)-3)+9)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0003",
+    "question": "Start from 4. Apply the following 6 operations in order: multiply 4, subtract 8, add 12, add 4, add 12, multiply 2. What is the final value?",
+    "answer": 72,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((4*4)-8)+12)+4)+12)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0004",
+    "question": "Start from 6. Apply the following 6 operations in order: multiply 3, add 3, subtract 2, subtract 10, multiply 2, add 4. What is the final value?",
+    "answer": 22,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((6*3)+3)-2)-10)*2)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0005",
+    "question": "Start from 2. Apply the following 5 operations in order: add 1, multiply 4, subtract 3, add 8, multiply 3. What is the final value?",
+    "answer": 51,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((2+1)*4)-3)+8)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0006",
+    "question": "Start from 3. Apply the following 6 operations in order: add 7, multiply 2, subtract 10, add 12, add 5, subtract 9. What is the final value?",
+    "answer": 18,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      }
+    ],
+    "calculation": "((((((3+7)*2)-10)+12)+5)-9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0007",
+    "question": "Start from 9. Apply the following 6 operations in order: add 10, subtract 1, add 8, add 11, add 5, add 2. What is the final value?",
+    "answer": 44,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((9+10)-1)+8)+11)+5)+2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0008",
+    "question": "Start from 7. Apply the following 6 operations in order: add 7, subtract 3, subtract 9, add 9, subtract 10, multiply 2. What is the final value?",
+    "answer": 2,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((7+7)-3)-9)+9)-10)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0009",
+    "question": "Start from 9. Apply the following 6 operations in order: add 3, subtract 10, subtract 10, add 6, add 10, subtract 9. What is the final value?",
+    "answer": -1,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      }
+    ],
+    "calculation": "((((((9+3)-10)-10)+6)+10)-9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0010",
+    "question": "Start from 8. Apply the following 5 operations in order: subtract 8, multiply 3, multiply 4, add 6, add 4. What is the final value?",
+    "answer": 10,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((8-8)*3)*4)+6)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0011",
+    "question": "Start from 6. Apply the following 6 operations in order: subtract 4, add 9, multiply 3, multiply 3, add 12, subtract 5. What is the final value?",
+    "answer": 106,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((6-4)+9)*3)*3)+12)-5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0012",
+    "question": "Start from 8. Apply the following 6 operations in order: multiply 4, add 6, subtract 1, subtract 7, subtract 7, multiply 3. What is the final value?",
+    "answer": 69,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((8*4)+6)-1)-7)-7)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0013",
+    "question": "Start from 2. Apply the following 5 operations in order: multiply 2, multiply 4, add 12, multiply 4, multiply 3. What is the final value?",
+    "answer": 336,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((2*2)*4)+12)*4)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0014",
+    "question": "Start from 10. Apply the following 6 operations in order: multiply 3, multiply 3, add 12, multiply 3, add 10, add 9. What is the final value?",
+    "answer": 325,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 9
+      }
+    ],
+    "calculation": "((((((10*3)*3)+12)*3)+10)+9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0015",
+    "question": "Start from 4. Apply the following 6 operations in order: subtract 1, subtract 10, multiply 2, add 5, subtract 10, multiply 2. What is the final value?",
+    "answer": -38,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((4-1)-10)*2)+5)-10)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0016",
+    "question": "Start from 12. Apply the following 6 operations in order: subtract 7, add 1, subtract 11, subtract 3, add 7, multiply 3. What is the final value?",
+    "answer": -3,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((12-7)+1)-11)-3)+7)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0017",
+    "question": "Start from 11. Apply the following 6 operations in order: add 2, multiply 2, multiply 4, multiply 3, multiply 4, subtract 1. What is the final value?",
+    "answer": 1247,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      }
+    ],
+    "calculation": "((((((11+2)*2)*4)*3)*4)-1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0018",
+    "question": "Start from 3. Apply the following 5 operations in order: multiply 4, add 6, subtract 3, subtract 3, add 3. What is the final value?",
+    "answer": 15,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((3*4)+6)-3)-3)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0019",
+    "question": "Start from 10. Apply the following 5 operations in order: add 11, add 1, multiply 4, subtract 5, multiply 3. What is the final value?",
+    "answer": 249,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((10+11)+1)*4)-5)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0020",
+    "question": "Start from 9. Apply the following 6 operations in order: add 4, add 5, subtract 9, subtract 12, subtract 8, add 11. What is the final value?",
+    "answer": 0,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 11
+      }
+    ],
+    "calculation": "((((((9+4)+5)-9)-12)-8)+11)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0021",
+    "question": "Start from 4. Apply the following 6 operations in order: add 2, subtract 7, multiply 4, add 9, multiply 2, subtract 2. What is the final value?",
+    "answer": 8,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((4+2)-7)*4)+9)*2)-2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0022",
+    "question": "Start from 10. Apply the following 6 operations in order: multiply 4, add 5, multiply 3, add 11, multiply 3, subtract 2. What is the final value?",
+    "answer": 436,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((10*4)+5)*3)+11)*3)-2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0023",
+    "question": "Start from 7. Apply the following 6 operations in order: subtract 8, add 11, multiply 3, subtract 2, add 12, multiply 4. What is the final value?",
+    "answer": 160,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((7-8)+11)*3)-2)+12)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0024",
+    "question": "Start from 6. Apply the following 5 operations in order: add 10, add 6, multiply 2, subtract 1, subtract 4. What is the final value?",
+    "answer": 39,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((6+10)+6)*2)-1)-4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0025",
+    "question": "Start from 8. Apply the following 5 operations in order: add 2, add 4, multiply 2, add 5, subtract 4. What is the final value?",
+    "answer": 29,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((8+2)+4)*2)+5)-4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0026",
+    "question": "Start from 6. Apply the following 5 operations in order: subtract 8, multiply 4, multiply 4, multiply 4, subtract 10. What is the final value?",
+    "answer": -138,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      }
+    ],
+    "calculation": "(((((6-8)*4)*4)*4)-10)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0027",
+    "question": "Start from 11. Apply the following 5 operations in order: subtract 12, subtract 8, subtract 5, subtract 12, multiply 2. What is the final value?",
+    "answer": -52,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((11-12)-8)-5)-12)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0028",
+    "question": "Start from 4. Apply the following 6 operations in order: subtract 12, multiply 3, multiply 2, subtract 7, multiply 2, multiply 2. What is the final value?",
+    "answer": -220,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((4-12)*3)*2)-7)*2)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0029",
+    "question": "Start from 3. Apply the following 6 operations in order: subtract 10, multiply 4, add 12, add 9, multiply 4, multiply 2. What is the final value?",
+    "answer": -56,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((3-10)*4)+12)+9)*4)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0030",
+    "question": "Start from 11. Apply the following 6 operations in order: subtract 8, add 9, add 6, subtract 11, multiply 3, add 5. What is the final value?",
+    "answer": 26,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((11-8)+9)+6)-11)*3)+5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0031",
+    "question": "Start from 5. Apply the following 6 operations in order: add 4, multiply 3, subtract 2, subtract 9, multiply 2, multiply 4. What is the final value?",
+    "answer": 128,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((5+4)*3)-2)-9)*2)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0032",
+    "question": "Start from 11. Apply the following 5 operations in order: add 12, multiply 2, add 11, add 9, add 3. What is the final value?",
+    "answer": 69,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((11+12)*2)+11)+9)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0033",
+    "question": "Start from 12. Apply the following 5 operations in order: subtract 8, add 4, subtract 6, add 6, multiply 2. What is the final value?",
+    "answer": 16,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((12-8)+4)-6)+6)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0034",
+    "question": "Start from 8. Apply the following 6 operations in order: subtract 8, multiply 2, add 3, subtract 8, add 7, multiply 2. What is the final value?",
+    "answer": 4,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((8-8)*2)+3)-8)+7)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0035",
+    "question": "Start from 12. Apply the following 5 operations in order: multiply 4, subtract 7, add 7, add 6, multiply 3. What is the final value?",
+    "answer": 162,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((12*4)-7)+7)+6)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0036",
+    "question": "Start from 2. Apply the following 5 operations in order: subtract 9, multiply 4, subtract 7, add 3, multiply 4. What is the final value?",
+    "answer": -128,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((2-9)*4)-7)+3)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0037",
+    "question": "Start from 4. Apply the following 5 operations in order: add 1, multiply 3, multiply 3, add 2, subtract 8. What is the final value?",
+    "answer": 39,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      }
+    ],
+    "calculation": "(((((4+1)*3)*3)+2)-8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0038",
+    "question": "Start from 4. Apply the following 6 operations in order: multiply 3, subtract 6, multiply 4, add 9, add 12, multiply 2. What is the final value?",
+    "answer": 90,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((4*3)-6)*4)+9)+12)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0039",
+    "question": "Start from 2. Apply the following 6 operations in order: add 8, add 11, subtract 8, multiply 2, subtract 10, subtract 7. What is the final value?",
+    "answer": 9,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      }
+    ],
+    "calculation": "((((((2+8)+11)-8)*2)-10)-7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0040",
+    "question": "Start from 12. Apply the following 5 operations in order: subtract 1, add 4, add 3, add 10, add 12. What is the final value?",
+    "answer": 40,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 12
+      }
+    ],
+    "calculation": "(((((12-1)+4)+3)+10)+12)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0041",
+    "question": "Start from 12. Apply the following 5 operations in order: multiply 2, add 3, add 1, multiply 4, add 1. What is the final value?",
+    "answer": 113,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 1
+      }
+    ],
+    "calculation": "(((((12*2)+3)+1)*4)+1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0042",
+    "question": "Start from 5. Apply the following 5 operations in order: subtract 5, multiply 4, add 2, multiply 4, subtract 5. What is the final value?",
+    "answer": 3,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      }
+    ],
+    "calculation": "(((((5-5)*4)+2)*4)-5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0043",
+    "question": "Start from 11. Apply the following 5 operations in order: add 8, add 11, subtract 1, subtract 4, multiply 2. What is the final value?",
+    "answer": 50,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((11+8)+11)-1)-4)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0044",
+    "question": "Start from 9. Apply the following 5 operations in order: subtract 6, subtract 8, subtract 10, add 2, add 2. What is the final value?",
+    "answer": -11,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((9-6)-8)-10)+2)+2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0045",
+    "question": "Start from 6. Apply the following 6 operations in order: add 3, subtract 3, add 7, add 6, multiply 2, subtract 8. What is the final value?",
+    "answer": 30,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      }
+    ],
+    "calculation": "((((((6+3)-3)+7)+6)*2)-8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0046",
+    "question": "Start from 10. Apply the following 5 operations in order: subtract 5, subtract 4, subtract 3, add 2, add 3. What is the final value?",
+    "answer": 3,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((10-5)-4)-3)+2)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0047",
+    "question": "Start from 11. Apply the following 6 operations in order: subtract 7, multiply 3, add 12, multiply 3, subtract 1, add 3. What is the final value?",
+    "answer": 74,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((11-7)*3)+12)*3)-1)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0048",
+    "question": "Start from 5. Apply the following 6 operations in order: add 2, add 6, add 3, multiply 2, subtract 10, subtract 5. What is the final value?",
+    "answer": 17,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((5+2)+6)+3)*2)-10)-5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0049",
+    "question": "Start from 3. Apply the following 6 operations in order: subtract 7, multiply 4, subtract 12, multiply 4, add 11, multiply 4. What is the final value?",
+    "answer": -404,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((3-7)*4)-12)*4)+11)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0050",
+    "question": "Start from 5. Apply the following 6 operations in order: add 2, subtract 8, add 3, subtract 9, subtract 1, multiply 2. What is the final value?",
+    "answer": -16,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((5+2)-8)+3)-9)-1)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0051",
+    "question": "Start from 2. Apply the following 6 operations in order: subtract 3, subtract 4, multiply 4, multiply 2, add 4, multiply 3. What is the final value?",
+    "answer": -108,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((2-3)-4)*4)*2)+4)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0052",
+    "question": "Start from 4. Apply the following 5 operations in order: multiply 4, subtract 3, multiply 2, subtract 2, subtract 10. What is the final value?",
+    "answer": 14,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      }
+    ],
+    "calculation": "(((((4*4)-3)*2)-2)-10)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0053",
+    "question": "Start from 7. Apply the following 6 operations in order: subtract 12, multiply 2, subtract 1, subtract 8, subtract 11, multiply 2. What is the final value?",
+    "answer": -60,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((7-12)*2)-1)-8)-11)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0054",
+    "question": "Start from 4. Apply the following 6 operations in order: subtract 2, subtract 8, multiply 3, multiply 2, add 5, multiply 4. What is the final value?",
+    "answer": -124,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((4-2)-8)*3)*2)+5)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0055",
+    "question": "Start from 11. Apply the following 5 operations in order: subtract 7, multiply 3, subtract 3, add 5, subtract 2. What is the final value?",
+    "answer": 12,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((11-7)*3)-3)+5)-2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0056",
+    "question": "Start from 12. Apply the following 6 operations in order: subtract 9, add 6, add 3, add 10, add 1, add 4. What is the final value?",
+    "answer": 27,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((12-9)+6)+3)+10)+1)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0057",
+    "question": "Start from 4. Apply the following 5 operations in order: multiply 3, multiply 3, multiply 4, add 1, multiply 3. What is the final value?",
+    "answer": 435,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((4*3)*3)*4)+1)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0058",
+    "question": "Start from 9. Apply the following 5 operations in order: add 5, add 12, subtract 10, add 3, multiply 4. What is the final value?",
+    "answer": 76,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((9+5)+12)-10)+3)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0059",
+    "question": "Start from 10. Apply the following 5 operations in order: multiply 3, multiply 4, subtract 3, subtract 5, add 1. What is the final value?",
+    "answer": 113,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 1
+      }
+    ],
+    "calculation": "(((((10*3)*4)-3)-5)+1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0060",
+    "question": "Start from 6. Apply the following 5 operations in order: add 5, multiply 3, multiply 4, add 5, add 1. What is the final value?",
+    "answer": 138,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 1
+      }
+    ],
+    "calculation": "(((((6+5)*3)*4)+5)+1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0061",
+    "question": "Start from 12. Apply the following 6 operations in order: add 1, multiply 4, add 7, subtract 2, subtract 2, subtract 9. What is the final value?",
+    "answer": 46,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      }
+    ],
+    "calculation": "((((((12+1)*4)+7)-2)-2)-9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0062",
+    "question": "Start from 9. Apply the following 5 operations in order: subtract 6, subtract 12, multiply 4, add 12, subtract 7. What is the final value?",
+    "answer": -31,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      }
+    ],
+    "calculation": "(((((9-6)-12)*4)+12)-7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0063",
+    "question": "Start from 2. Apply the following 5 operations in order: subtract 1, subtract 8, add 8, add 2, add 2. What is the final value?",
+    "answer": 5,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((2-1)-8)+8)+2)+2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0064",
+    "question": "Start from 6. Apply the following 6 operations in order: multiply 4, subtract 1, add 9, add 4, add 1, multiply 2. What is the final value?",
+    "answer": 74,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((6*4)-1)+9)+4)+1)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0065",
+    "question": "Start from 11. Apply the following 6 operations in order: subtract 3, add 6, multiply 3, subtract 8, multiply 2, multiply 3. What is the final value?",
+    "answer": 204,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((11-3)+6)*3)-8)*2)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0066",
+    "question": "Start from 6. Apply the following 6 operations in order: add 2, add 2, subtract 2, subtract 6, multiply 3, multiply 2. What is the final value?",
+    "answer": 12,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((6+2)+2)-2)-6)*3)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0067",
+    "question": "Start from 2. Apply the following 5 operations in order: multiply 3, subtract 11, multiply 2, multiply 3, subtract 3. What is the final value?",
+    "answer": -33,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((2*3)-11)*2)*3)-3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0068",
+    "question": "Start from 8. Apply the following 6 operations in order: add 3, multiply 2, multiply 4, multiply 4, add 9, add 7. What is the final value?",
+    "answer": 368,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 7
+      }
+    ],
+    "calculation": "((((((8+3)*2)*4)*4)+9)+7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0069",
+    "question": "Start from 5. Apply the following 5 operations in order: multiply 4, add 9, multiply 3, subtract 10, multiply 3. What is the final value?",
+    "answer": 231,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((5*4)+9)*3)-10)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0070",
+    "question": "Start from 10. Apply the following 6 operations in order: add 12, multiply 4, add 8, multiply 4, multiply 4, subtract 3. What is the final value?",
+    "answer": 1533,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((10+12)*4)+8)*4)*4)-3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0071",
+    "question": "Start from 7. Apply the following 6 operations in order: add 8, add 2, multiply 3, subtract 1, multiply 2, subtract 7. What is the final value?",
+    "answer": 93,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      }
+    ],
+    "calculation": "((((((7+8)+2)*3)-1)*2)-7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0072",
+    "question": "Start from 11. Apply the following 6 operations in order: multiply 3, add 6, subtract 3, add 5, add 7, add 5. What is the final value?",
+    "answer": 53,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((11*3)+6)-3)+5)+7)+5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0073",
+    "question": "Start from 10. Apply the following 5 operations in order: subtract 2, add 2, subtract 8, subtract 4, multiply 3. What is the final value?",
+    "answer": -6,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((10-2)+2)-8)-4)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0074",
+    "question": "Start from 4. Apply the following 5 operations in order: multiply 4, multiply 4, add 4, add 8, subtract 5. What is the final value?",
+    "answer": 71,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      }
+    ],
+    "calculation": "(((((4*4)*4)+4)+8)-5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0075",
+    "question": "Start from 10. Apply the following 6 operations in order: subtract 7, multiply 2, add 5, add 7, multiply 3, add 4. What is the final value?",
+    "answer": 58,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((10-7)*2)+5)+7)*3)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0076",
+    "question": "Start from 11. Apply the following 5 operations in order: multiply 3, subtract 4, multiply 3, subtract 7, add 3. What is the final value?",
+    "answer": 83,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((11*3)-4)*3)-7)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0077",
+    "question": "Start from 6. Apply the following 5 operations in order: subtract 9, add 6, subtract 3, add 6, add 2. What is the final value?",
+    "answer": 8,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((6-9)+6)-3)+6)+2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 5,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0078",
+    "question": "Start from 7. Apply the following 6 operations in order: subtract 5, add 2, add 10, multiply 3, add 1, multiply 4. What is the final value?",
+    "answer": 172,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((7-5)+2)+10)*3)+1)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0079",
+    "question": "Start from 3. Apply the following 6 operations in order: multiply 4, multiply 3, multiply 2, add 4, multiply 3, add 5. What is the final value?",
+    "answer": 233,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((3*4)*3)*2)+4)*3)+5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 6,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0080",
+    "question": "Start from 3. Apply the following 8 operations in order: subtract 9, subtract 8, add 12, subtract 2, subtract 9, add 9, add 4, add 4. What is the final value?",
+    "answer": 4,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((((3-9)-8)+12)-2)-9)+9)+4)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0081",
+    "question": "Start from 12. Apply the following 7 operations in order: subtract 8, multiply 2, add 10, add 9, add 6, multiply 2, subtract 3. What is the final value?",
+    "answer": 63,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((12-8)*2)+10)+9)+6)*2)-3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0082",
+    "question": "Start from 8. Apply the following 8 operations in order: subtract 5, subtract 11, add 11, multiply 2, multiply 3, add 2, add 4, add 8. What is the final value?",
+    "answer": 32,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 8
+      }
+    ],
+    "calculation": "((((((((8-5)-11)+11)*2)*3)+2)+4)+8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0083",
+    "question": "Start from 4. Apply the following 8 operations in order: multiply 3, multiply 3, add 1, multiply 4, add 6, multiply 2, add 3, subtract 7. What is the final value?",
+    "answer": 304,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      }
+    ],
+    "calculation": "((((((((4*3)*3)+1)*4)+6)*2)+3)-7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0084",
+    "question": "Start from 5. Apply the following 7 operations in order: subtract 3, add 12, multiply 3, subtract 12, multiply 2, multiply 2, add 7. What is the final value?",
+    "answer": 127,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 7
+      }
+    ],
+    "calculation": "(((((((5-3)+12)*3)-12)*2)*2)+7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0085",
+    "question": "Start from 5. Apply the following 7 operations in order: add 8, multiply 4, multiply 4, subtract 1, subtract 7, subtract 7, add 4. What is the final value?",
+    "answer": 197,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((((5+8)*4)*4)-1)-7)-7)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0086",
+    "question": "Start from 11. Apply the following 7 operations in order: multiply 4, subtract 9, multiply 4, add 11, add 3, subtract 1, subtract 6. What is the final value?",
+    "answer": 147,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      }
+    ],
+    "calculation": "(((((((11*4)-9)*4)+11)+3)-1)-6)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0087",
+    "question": "Start from 2. Apply the following 7 operations in order: add 2, multiply 3, subtract 3, multiply 2, multiply 4, multiply 2, subtract 9. What is the final value?",
+    "answer": 135,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      }
+    ],
+    "calculation": "(((((((2+2)*3)-3)*2)*4)*2)-9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0088",
+    "question": "Start from 11. Apply the following 7 operations in order: add 2, subtract 9, add 1, subtract 6, multiply 4, subtract 11, multiply 2. What is the final value?",
+    "answer": -30,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((11+2)-9)+1)-6)*4)-11)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0089",
+    "question": "Start from 11. Apply the following 8 operations in order: subtract 11, subtract 8, add 7, add 6, add 3, subtract 11, subtract 2, subtract 12. What is the final value?",
+    "answer": -17,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      }
+    ],
+    "calculation": "((((((((11-11)-8)+7)+6)+3)-11)-2)-12)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0090",
+    "question": "Start from 8. Apply the following 8 operations in order: add 11, subtract 12, multiply 3, subtract 4, subtract 5, add 1, multiply 4, add 2. What is the final value?",
+    "answer": 54,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((((8+11)-12)*3)-4)-5)+1)*4)+2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0091",
+    "question": "Start from 3. Apply the following 7 operations in order: subtract 4, add 4, add 5, multiply 4, subtract 4, multiply 2, multiply 3. What is the final value?",
+    "answer": 168,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((3-4)+4)+5)*4)-4)*2)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0092",
+    "question": "Start from 12. Apply the following 8 operations in order: subtract 11, add 9, add 6, subtract 5, subtract 9, multiply 3, multiply 3, subtract 6. What is the final value?",
+    "answer": 12,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      }
+    ],
+    "calculation": "((((((((12-11)+9)+6)-5)-9)*3)*3)-6)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0093",
+    "question": "Start from 7. Apply the following 7 operations in order: multiply 4, add 4, multiply 2, multiply 3, multiply 3, multiply 4, subtract 10. What is the final value?",
+    "answer": 2294,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      }
+    ],
+    "calculation": "(((((((7*4)+4)*2)*3)*3)*4)-10)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0094",
+    "question": "Start from 2. Apply the following 7 operations in order: multiply 4, subtract 12, subtract 6, multiply 3, add 11, multiply 3, add 1. What is the final value?",
+    "answer": -56,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 1
+      }
+    ],
+    "calculation": "(((((((2*4)-12)-6)*3)+11)*3)+1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0095",
+    "question": "Start from 3. Apply the following 8 operations in order: multiply 2, multiply 3, add 10, add 8, subtract 9, multiply 3, subtract 2, multiply 2. What is the final value?",
+    "answer": 158,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((((3*2)*3)+10)+8)-9)*3)-2)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0096",
+    "question": "Start from 8. Apply the following 7 operations in order: subtract 10, add 8, subtract 10, multiply 4, add 9, subtract 4, multiply 2. What is the final value?",
+    "answer": -22,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((8-10)+8)-10)*4)+9)-4)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0097",
+    "question": "Start from 8. Apply the following 8 operations in order: add 5, multiply 2, add 5, subtract 6, add 10, add 4, multiply 4, subtract 1. What is the final value?",
+    "answer": 155,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      }
+    ],
+    "calculation": "((((((((8+5)*2)+5)-6)+10)+4)*4)-1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0098",
+    "question": "Start from 9. Apply the following 8 operations in order: add 5, subtract 5, add 8, subtract 12, subtract 12, add 10, add 2, subtract 1. What is the final value?",
+    "answer": 4,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      }
+    ],
+    "calculation": "((((((((9+5)-5)+8)-12)-12)+10)+2)-1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0099",
+    "question": "Start from 4. Apply the following 7 operations in order: subtract 3, multiply 4, multiply 4, add 5, multiply 4, add 6, multiply 3. What is the final value?",
+    "answer": 270,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((4-3)*4)*4)+5)*4)+6)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0100",
+    "question": "Start from 5. Apply the following 7 operations in order: add 9, multiply 2, subtract 4, multiply 4, subtract 12, add 3, multiply 3. What is the final value?",
+    "answer": 261,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((5+9)*2)-4)*4)-12)+3)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0101",
+    "question": "Start from 6. Apply the following 7 operations in order: multiply 3, multiply 4, subtract 3, subtract 4, subtract 7, add 2, multiply 2. What is the final value?",
+    "answer": 120,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((6*3)*4)-3)-4)-7)+2)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0102",
+    "question": "Start from 4. Apply the following 7 operations in order: add 11, subtract 6, subtract 6, add 5, multiply 3, multiply 2, add 12. What is the final value?",
+    "answer": 60,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      }
+    ],
+    "calculation": "(((((((4+11)-6)-6)+5)*3)*2)+12)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0103",
+    "question": "Start from 12. Apply the following 8 operations in order: multiply 3, subtract 12, subtract 7, subtract 11, multiply 3, add 7, multiply 4, add 2. What is the final value?",
+    "answer": 102,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((((12*3)-12)-7)-11)*3)+7)*4)+2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0104",
+    "question": "Start from 11. Apply the following 8 operations in order: subtract 5, multiply 2, subtract 5, multiply 4, subtract 8, subtract 3, multiply 4, multiply 3. What is the final value?",
+    "answer": 204,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((((11-5)*2)-5)*4)-8)-3)*4)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0105",
+    "question": "Start from 5. Apply the following 8 operations in order: add 3, subtract 2, multiply 3, add 1, multiply 2, add 12, add 12, add 10. What is the final value?",
+    "answer": 72,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 10
+      }
+    ],
+    "calculation": "((((((((5+3)-2)*3)+1)*2)+12)+12)+10)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0106",
+    "question": "Start from 12. Apply the following 8 operations in order: add 12, add 11, subtract 7, add 2, subtract 6, add 4, add 11, multiply 2. What is the final value?",
+    "answer": 78,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((((12+12)+11)-7)+2)-6)+4)+11)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0107",
+    "question": "Start from 4. Apply the following 8 operations in order: subtract 3, add 7, multiply 3, multiply 4, subtract 1, add 5, add 6, multiply 3. What is the final value?",
+    "answer": 318,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((((4-3)+7)*3)*4)-1)+5)+6)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0108",
+    "question": "Start from 9. Apply the following 7 operations in order: add 6, add 8, multiply 4, multiply 4, subtract 4, multiply 2, subtract 12. What is the final value?",
+    "answer": 716,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      }
+    ],
+    "calculation": "(((((((9+6)+8)*4)*4)-4)*2)-12)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0109",
+    "question": "Start from 9. Apply the following 8 operations in order: subtract 7, multiply 4, add 1, add 8, multiply 2, multiply 3, subtract 11, add 10. What is the final value?",
+    "answer": 101,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 10
+      }
+    ],
+    "calculation": "((((((((9-7)*4)+1)+8)*2)*3)-11)+10)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0110",
+    "question": "Start from 8. Apply the following 7 operations in order: add 10, multiply 2, add 1, add 9, multiply 3, add 3, multiply 4. What is the final value?",
+    "answer": 564,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((((8+10)*2)+1)+9)*3)+3)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0111",
+    "question": "Start from 9. Apply the following 7 operations in order: add 4, subtract 11, add 8, multiply 3, add 9, subtract 5, add 9. What is the final value?",
+    "answer": 43,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 9
+      }
+    ],
+    "calculation": "(((((((9+4)-11)+8)*3)+9)-5)+9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0112",
+    "question": "Start from 4. Apply the following 8 operations in order: add 1, add 3, add 10, subtract 5, add 1, add 10, subtract 9, subtract 6. What is the final value?",
+    "answer": 9,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      }
+    ],
+    "calculation": "((((((((4+1)+3)+10)-5)+1)+10)-9)-6)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0113",
+    "question": "Start from 4. Apply the following 8 operations in order: add 11, multiply 2, add 9, add 11, subtract 3, add 4, add 7, subtract 9. What is the final value?",
+    "answer": 49,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      }
+    ],
+    "calculation": "((((((((4+11)*2)+9)+11)-3)+4)+7)-9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0114",
+    "question": "Start from 9. Apply the following 8 operations in order: multiply 2, multiply 2, add 1, multiply 3, multiply 3, multiply 4, add 1, add 3. What is the final value?",
+    "answer": 1336,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((((9*2)*2)+1)*3)*3)*4)+1)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0115",
+    "question": "Start from 4. Apply the following 7 operations in order: add 6, add 2, multiply 3, add 3, subtract 1, add 2, subtract 3. What is the final value?",
+    "answer": 37,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((4+6)+2)*3)+3)-1)+2)-3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0116",
+    "question": "Start from 8. Apply the following 8 operations in order: multiply 4, multiply 4, subtract 10, add 2, add 12, add 5, subtract 7, add 10. What is the final value?",
+    "answer": 140,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 10
+      }
+    ],
+    "calculation": "((((((((8*4)*4)-10)+2)+12)+5)-7)+10)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0117",
+    "question": "Start from 12. Apply the following 7 operations in order: subtract 5, multiply 3, add 7, add 2, subtract 5, add 6, add 3. What is the final value?",
+    "answer": 34,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((12-5)*3)+7)+2)-5)+6)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0118",
+    "question": "Start from 6. Apply the following 7 operations in order: add 2, multiply 3, subtract 6, multiply 4, multiply 2, multiply 4, add 3. What is the final value?",
+    "answer": 579,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((6+2)*3)-6)*4)*2)*4)+3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0119",
+    "question": "Start from 11. Apply the following 8 operations in order: add 10, subtract 11, multiply 3, multiply 4, add 1, multiply 2, subtract 12, add 8. What is the final value?",
+    "answer": 238,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 8
+      }
+    ],
+    "calculation": "((((((((11+10)-11)*3)*4)+1)*2)-12)+8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0120",
+    "question": "Start from 7. Apply the following 8 operations in order: subtract 7, subtract 1, multiply 4, add 10, multiply 2, add 6, subtract 8, multiply 4. What is the final value?",
+    "answer": 40,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((((7-7)-1)*4)+10)*2)+6)-8)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0121",
+    "question": "Start from 11. Apply the following 7 operations in order: add 12, add 1, subtract 7, subtract 10, multiply 2, subtract 4, subtract 5. What is the final value?",
+    "answer": 5,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      }
+    ],
+    "calculation": "(((((((11+12)+1)-7)-10)*2)-4)-5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0122",
+    "question": "Start from 6. Apply the following 7 operations in order: multiply 2, subtract 3, subtract 11, add 5, subtract 10, multiply 3, multiply 4. What is the final value?",
+    "answer": -84,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((((6*2)-3)-11)+5)-10)*3)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0123",
+    "question": "Start from 7. Apply the following 7 operations in order: add 10, multiply 4, add 12, subtract 10, add 5, subtract 12, multiply 4. What is the final value?",
+    "answer": 252,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((((7+10)*4)+12)-10)+5)-12)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0124",
+    "question": "Start from 4. Apply the following 7 operations in order: multiply 4, multiply 4, add 2, add 5, multiply 2, multiply 4, subtract 4. What is the final value?",
+    "answer": 564,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((((4*4)*4)+2)+5)*2)*4)-4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0125",
+    "question": "Start from 3. Apply the following 7 operations in order: subtract 7, multiply 4, multiply 2, multiply 3, subtract 2, add 2, multiply 3. What is the final value?",
+    "answer": -288,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((3-7)*4)*2)*3)-2)+2)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0126",
+    "question": "Start from 5. Apply the following 8 operations in order: multiply 2, subtract 9, add 12, add 1, subtract 8, add 10, multiply 3, multiply 2. What is the final value?",
+    "answer": 96,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((((5*2)-9)+12)+1)-8)+10)*3)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0127",
+    "question": "Start from 3. Apply the following 8 operations in order: add 11, subtract 3, multiply 2, add 9, multiply 3, subtract 9, multiply 3, add 5. What is the final value?",
+    "answer": 257,
+    "base_value": 3,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((((3+11)-3)*2)+9)*3)-9)*3)+5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0128",
+    "question": "Start from 6. Apply the following 7 operations in order: subtract 9, add 12, subtract 6, add 1, subtract 12, add 2, subtract 1. What is the final value?",
+    "answer": -7,
+    "base_value": 6,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      }
+    ],
+    "calculation": "(((((((6-9)+12)-6)+1)-12)+2)-1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0129",
+    "question": "Start from 2. Apply the following 8 operations in order: subtract 9, multiply 2, subtract 1, subtract 6, subtract 2, subtract 5, add 10, subtract 6. What is the final value?",
+    "answer": -24,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      }
+    ],
+    "calculation": "((((((((2-9)*2)-1)-6)-2)-5)+10)-6)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0130",
+    "question": "Start from 10. Apply the following 7 operations in order: add 9, add 1, add 12, multiply 2, add 8, subtract 1, add 1. What is the final value?",
+    "answer": 72,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 1
+      }
+    ],
+    "calculation": "(((((((10+9)+1)+12)*2)+8)-1)+1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0131",
+    "question": "Start from 8. Apply the following 7 operations in order: add 1, add 11, subtract 6, add 4, multiply 4, add 9, multiply 3. What is the final value?",
+    "answer": 243,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((8+1)+11)-6)+4)*4)+9)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0132",
+    "question": "Start from 4. Apply the following 8 operations in order: add 4, multiply 3, multiply 3, multiply 2, add 7, add 5, add 12, multiply 3. What is the final value?",
+    "answer": 504,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((((4+4)*3)*3)*2)+7)+5)+12)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0133",
+    "question": "Start from 10. Apply the following 8 operations in order: multiply 2, multiply 3, multiply 2, add 5, subtract 6, multiply 3, multiply 2, add 9. What is the final value?",
+    "answer": 723,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 9
+      }
+    ],
+    "calculation": "((((((((10*2)*3)*2)+5)-6)*3)*2)+9)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0134",
+    "question": "Start from 4. Apply the following 8 operations in order: add 10, add 2, subtract 9, add 3, subtract 7, subtract 12, add 8, add 4. What is the final value?",
+    "answer": 3,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((((4+10)+2)-9)+3)-7)-12)+8)+4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0135",
+    "question": "Start from 7. Apply the following 7 operations in order: add 9, add 4, multiply 4, subtract 5, multiply 3, subtract 2, add 12. What is the final value?",
+    "answer": 235,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      }
+    ],
+    "calculation": "(((((((7+9)+4)*4)-5)*3)-2)+12)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0136",
+    "question": "Start from 2. Apply the following 7 operations in order: add 2, subtract 11, multiply 4, multiply 4, subtract 1, add 3, add 7. What is the final value?",
+    "answer": -103,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 7
+      }
+    ],
+    "calculation": "(((((((2+2)-11)*4)*4)-1)+3)+7)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0137",
+    "question": "Start from 7. Apply the following 7 operations in order: add 11, multiply 2, subtract 12, multiply 3, subtract 6, subtract 10, subtract 2. What is the final value?",
+    "answer": 54,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((7+11)*2)-12)*3)-6)-10)-2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0138",
+    "question": "Start from 7. Apply the following 7 operations in order: multiply 2, multiply 3, subtract 12, subtract 8, subtract 5, subtract 6, multiply 2. What is the final value?",
+    "answer": 22,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((7*2)*3)-12)-8)-5)-6)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0139",
+    "question": "Start from 4. Apply the following 7 operations in order: add 5, multiply 3, subtract 12, add 10, subtract 12, multiply 4, subtract 6. What is the final value?",
+    "answer": 46,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      }
+    ],
+    "calculation": "(((((((4+5)*3)-12)+10)-12)*4)-6)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0140",
+    "question": "Start from 7. Apply the following 8 operations in order: add 6, subtract 7, add 7, multiply 4, subtract 12, add 12, multiply 4, multiply 4. What is the final value?",
+    "answer": 832,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((((7+6)-7)+7)*4)-12)+12)*4)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0141",
+    "question": "Start from 7. Apply the following 7 operations in order: subtract 5, add 8, subtract 7, subtract 1, multiply 4, multiply 3, add 5. What is the final value?",
+    "answer": 29,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 5
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      }
+    ],
+    "calculation": "(((((((7-5)+8)-7)-1)*4)*3)+5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0142",
+    "question": "Start from 2. Apply the following 8 operations in order: add 1, subtract 2, subtract 7, multiply 4, add 3, multiply 4, subtract 12, add 11. What is the final value?",
+    "answer": -85,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 11
+      }
+    ],
+    "calculation": "((((((((2+1)-2)-7)*4)+3)*4)-12)+11)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0143",
+    "question": "Start from 2. Apply the following 8 operations in order: subtract 2, add 1, subtract 11, subtract 1, subtract 9, multiply 3, subtract 8, multiply 2. What is the final value?",
+    "answer": -136,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "((((((((2-2)+1)-11)-1)-9)*3)-8)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0144",
+    "question": "Start from 7. Apply the following 7 operations in order: add 11, multiply 3, multiply 4, multiply 4, add 10, add 1, subtract 4. What is the final value?",
+    "answer": 871,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      }
+    ],
+    "calculation": "(((((((7+11)*3)*4)*4)+10)+1)-4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0145",
+    "question": "Start from 2. Apply the following 8 operations in order: multiply 2, add 9, multiply 3, multiply 2, subtract 6, subtract 4, subtract 8, subtract 1. What is the final value?",
+    "answer": 59,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      }
+    ],
+    "calculation": "((((((((2*2)+9)*3)*2)-6)-4)-8)-1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0146",
+    "question": "Start from 10. Apply the following 7 operations in order: subtract 4, multiply 4, add 9, multiply 2, add 5, subtract 6, add 8. What is the final value?",
+    "answer": 73,
+    "base_value": 10,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 8
+      }
+    ],
+    "calculation": "(((((((10-4)*4)+9)*2)+5)-6)+8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0147",
+    "question": "Start from 11. Apply the following 8 operations in order: subtract 1, add 2, add 3, add 12, multiply 2, add 6, add 7, add 1. What is the final value?",
+    "answer": 68,
+    "base_value": 11,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 1
+      }
+    ],
+    "calculation": "((((((((11-1)+2)+3)+12)*2)+6)+7)+1)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0148",
+    "question": "Start from 4. Apply the following 7 operations in order: subtract 10, multiply 3, subtract 3, add 6, subtract 10, subtract 1, subtract 8. What is the final value?",
+    "answer": -34,
+    "base_value": 4,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      }
+    ],
+    "calculation": "(((((((4-10)*3)-3)+6)-10)-1)-8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0149",
+    "question": "Start from 5. Apply the following 7 operations in order: subtract 6, add 11, add 10, subtract 10, add 1, subtract 1, multiply 2. What is the final value?",
+    "answer": 20,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 10
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((5-6)+11)+10)-10)+1)-1)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0150",
+    "question": "Start from 5. Apply the following 8 operations in order: subtract 11, add 2, subtract 12, subtract 7, subtract 2, subtract 6, multiply 4, multiply 3. What is the final value?",
+    "answer": -372,
+    "base_value": 5,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((((5-11)+2)-12)-7)-2)-6)*4)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0151",
+    "question": "Start from 12. Apply the following 8 operations in order: add 8, multiply 4, subtract 4, add 11, subtract 4, add 7, multiply 2, multiply 4. What is the final value?",
+    "answer": 720,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((((12+8)*4)-4)+11)-4)+7)*2)*4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0152",
+    "question": "Start from 9. Apply the following 8 operations in order: subtract 6, add 4, subtract 8, add 9, multiply 3, subtract 7, subtract 12, subtract 4. What is the final value?",
+    "answer": 1,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 7
+      },
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      }
+    ],
+    "calculation": "((((((((9-6)+4)-8)+9)*3)-7)-12)-4)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0153",
+    "question": "Start from 12. Apply the following 8 operations in order: add 12, subtract 2, add 12, add 5, subtract 1, subtract 4, add 4, subtract 8. What is the final value?",
+    "answer": 30,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "subtract",
+        "value": 1
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 8
+      }
+    ],
+    "calculation": "((((((((12+12)-2)+12)+5)-1)-4)+4)-8)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0154",
+    "question": "Start from 9. Apply the following 7 operations in order: subtract 4, add 3, add 1, multiply 4, multiply 3, add 5, multiply 2. What is the final value?",
+    "answer": 226,
+    "base_value": 9,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 1
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((9-4)+3)+1)*4)*3)+5)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0155",
+    "question": "Start from 12. Apply the following 7 operations in order: subtract 12, multiply 2, add 8, multiply 4, subtract 3, subtract 9, multiply 2. What is the final value?",
+    "answer": 40,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 12
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 9
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      }
+    ],
+    "calculation": "(((((((12-12)*2)+8)*4)-3)-9)*2)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0156",
+    "question": "Start from 8. Apply the following 8 operations in order: subtract 11, add 2, subtract 11, subtract 10, add 7, add 9, add 6, subtract 3. What is the final value?",
+    "answer": -3,
+    "base_value": 8,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 11
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "add",
+        "value": 9
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "subtract",
+        "value": 3
+      }
+    ],
+    "calculation": "((((((((8-11)+2)-11)-10)+7)+9)+6)-3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0157",
+    "question": "Start from 2. Apply the following 8 operations in order: subtract 2, subtract 6, multiply 2, multiply 3, add 8, subtract 4, multiply 3, add 5. What is the final value?",
+    "answer": -91,
+    "base_value": 2,
+    "operator_chain": [
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "subtract",
+        "value": 6
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "subtract",
+        "value": 4
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "add",
+        "value": 5
+      }
+    ],
+    "calculation": "((((((((2-2)-6)*2)*3)+8)-4)*3)+5)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 8,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0158",
+    "question": "Start from 12. Apply the following 7 operations in order: multiply 3, subtract 10, multiply 3, multiply 4, add 7, multiply 2, add 12. What is the final value?",
+    "answer": 650,
+    "base_value": 12,
+    "operator_chain": [
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "subtract",
+        "value": 10
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 7
+      },
+      {
+        "op": "multiply",
+        "value": 2
+      },
+      {
+        "op": "add",
+        "value": 12
+      }
+    ],
+    "calculation": "(((((((12*3)-10)*3)*4)+7)*2)+12)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  },
+  {
+    "id": "multi-hop-test-0159",
+    "question": "Start from 7. Apply the following 7 operations in order: add 8, add 4, add 6, add 2, multiply 4, subtract 2, multiply 3. What is the final value?",
+    "answer": 318,
+    "base_value": 7,
+    "operator_chain": [
+      {
+        "op": "add",
+        "value": 8
+      },
+      {
+        "op": "add",
+        "value": 4
+      },
+      {
+        "op": "add",
+        "value": 6
+      },
+      {
+        "op": "add",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 4
+      },
+      {
+        "op": "subtract",
+        "value": 2
+      },
+      {
+        "op": "multiply",
+        "value": 3
+      }
+    ],
+    "calculation": "(((((((7+8)+4)+6)+2)*4)-2)*3)",
+    "table": [],
+    "paragraphs": [],
+    "metadata": {
+      "chain_length": 7,
+      "source": "synthetic_from_table6_categories",
+      "split": "test"
+    }
+  }
+]

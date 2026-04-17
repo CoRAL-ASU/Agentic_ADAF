@@ -1,0 +1,227 @@
+version: 2
+
+# Dataset definitions. Each entry may specify an optional `variant`
+# (e.g., MMQA full multimodal vs. text/table-only) and dataset argument
+# used by downstream commands.
+datasets:
+  - name: finqa
+    label: FinQA
+    dataset_arg: finqa
+    split: dev
+    variant: default
+    retriever_tag: sec4
+    sample_limit: 20
+    enabled: true
+
+  - name: tatqa
+    label: TAT-QA
+    dataset_arg: tatqa
+    split: dev
+    variant: default
+    retriever_tag: sec4
+    sample_limit: 20
+    enabled: true
+
+  - name: mmqa_full
+    label: "MMQA (full)"
+    dataset_arg: mmqa_full
+    split: dev
+    variant: full
+    retriever_tag: sec4
+    extra_args: "--mmqa-mode full"
+    sample_limit: 20
+    enabled: true
+
+  - name: mmqa_text_table
+    label: "MMQA (text/table)"
+    dataset_arg: mmqa_text_table
+    split: dev
+    variant: text_table
+    retriever_tag: sec4
+    extra_args: "--mmqa-mode text_table"
+    sample_limit: 20
+    enabled: true
+
+  - name: wikitq
+    label: WikiTQ
+    dataset_arg: wikitq
+    split: dev
+    variant: default
+    retriever_tag: sec4
+    sample_limit: 20
+    enabled: true
+
+  - name: fetaqa
+    label: FeTaQA
+    dataset_arg: fetaqa
+    split: dev
+    variant: default
+    retriever_tag: sec4
+    sample_limit: 20
+    enabled: true
+
+  - name: multi_hop
+    label: "Multi-hop (synthetic)"
+    dataset_arg: multi_hop
+    split: dev
+    variant: long_horizon
+    retriever_tag: sec4
+    sample_limit: 20
+    enabled: true
+
+# Backbone LLMs, along with their decoding hyper-parameters
+# (taken from Table 6 of the paper).
+backbones:
+  - name: llama3_8b
+    label: "LLaMA-3 8B"
+    model: "meta-llama/Meta-Llama-3-8B-Instruct"
+    decoding:
+      temperature: 0.3
+      top_p: 0.8
+      max_new_tokens: 512
+    enabled: true
+
+  - name: llama3_70b
+    label: "LLaMA-3 70B"
+    model: "meta-llama/Meta-Llama-3-70B-Instruct"
+    decoding:
+      temperature: 0.2
+      top_p: 0.8
+      max_new_tokens: 512
+    enabled: true
+
+  - name: mistral_7b
+    label: "Mistral 7B"
+    model: "mistralai/Mistral-7B-Instruct-v0.3"
+    decoding:
+      temperature: 0.3
+      top_p: 0.9
+      max_new_tokens: 512
+    enabled: true
+
+  - name: mistral_24b
+    label: "Mistral 24B"
+    model: "mistralai/Mistral-Nemo-Instruct-2407"
+    decoding:
+      temperature: 0.2
+      top_p: 0.9
+      max_new_tokens: 512
+    enabled: true
+
+  - name: qwen3_medium
+    label: "Qwen3 Medium"
+    model: "qwen/qwen3-4b:free"
+    decoding:
+      temperature: 0.3
+      top_p: 0.85
+      max_new_tokens: 512
+    enabled: true
+
+  - name: qwen3_large
+    label: "Qwen3 Large"
+    model: "qwen/qwen3-8b"
+    decoding:
+      temperature: 0.2
+      top_p: 0.85
+      max_new_tokens: 512
+    enabled: true
+
+# Systems/planners to evaluate under every backbone/dataset combination.
+# The `command` template can use any placeholder defined in
+# scripts/run_benchmark_matrix.py (see README).
+systems:
+  - name: cot
+    label: "CoT"
+    description: "Single-agent chain-of-thought baseline."
+    command: >
+      python baselines/run_cot.py
+      --dataset {dataset_arg}
+      --split {split}
+      --model {model}
+      --output {metrics_path}
+      {dataset_limit_arg}
+    enabled: true
+
+  - name: react
+    label: "ReAct"
+    description: "ReAct baseline executed with the same retriever."
+    command: >
+      python baselines/run_react.py
+      --dataset {dataset_arg}
+      --split {split}
+      --model {model}
+      --decoding '{decoding_json}'
+      --output {metrics_path}
+      {dataset_limit_arg}
+    enabled: true
+
+  - name: rewoo
+    label: "ReWOO"
+    command: >
+      python baselines/run_rewoo.py
+      --dataset {dataset_arg}
+      --split {split}
+      --model {model}
+      --decoding '{decoding_json}'
+      --output {metrics_path}
+      {dataset_limit_arg}
+    enabled: true
+
+  - name: planner
+    label: "Planner-Based"
+    command: >
+      python baselines/run_planner.py
+      --dataset {dataset_arg}
+      --split {split}
+      --model {model}
+      --decoding '{decoding_json}'
+      --output {metrics_path}
+      {dataset_limit_arg}
+    enabled: true
+
+  - name: planner_replan
+    label: "Planner (Replan)"
+    command: >
+      python baselines/run_planner_replan.py
+      --dataset {dataset_arg}
+      --split {split}
+      --model {model}
+      --decoding '{decoding_json}'
+      --output {metrics_path}
+      {dataset_limit_arg}
+    enabled: true
+
+  - name: planlog_hybrid
+    label: "Plan→Log Hybrid"
+    command: >
+      python scripts/run_planlog_hybrid.py
+      --dataset {dataset_arg}
+      --split {split}
+      --llm {model}
+      --summarizer-max-tokens {summarizer_max_tokens}
+      --results-file {metrics_path}
+      --visual-caption-model {visual_caption_model}
+      --visual-caption-path {visual_caption_model_path}
+      --visual-ocr-engine {visual_ocr_engine}
+      --visual-ocr-model-dir {visual_ocr_model_dir}
+      {dataset_limit_arg}
+    enabled: true
+
+  - name: dealog
+    label: "DeALoG"
+    command: >
+      python scripts/run_dealog.py
+      --dataset {dataset_arg}
+      --split {split}
+      --llm {model}
+      --summarizer-max-tokens {summarizer_max_tokens}
+      --results-file {metrics_path}
+      --visual-caption-model {visual_caption_model}
+      --visual-caption-path {visual_caption_model_path}
+      --visual-ocr-engine {visual_ocr_engine}
+      --visual-ocr-model-dir {visual_ocr_model_dir}
+      {dataset_limit_arg}
+    enabled: true
+
+# Name of the baseline system used for delta + statistical tests.
+baseline_system: cot
